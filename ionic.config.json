@@ -1,0 +1,7 @@
+{
+  "name": "Undergo-BCC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
