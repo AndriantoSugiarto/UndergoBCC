@@ -1,27 +1,84 @@
 #container {
-  text-align: center;
+	background-image: url(../../assets/images/undergo-2023.webp);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+	h2 {
+		font-size: 2.5rem;
+		line-height: 1.5rem;
+
+		color: #242424;
+
+		margin: 0;
+		padding-top: 2rem;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-family: 'Retropix';
+	}
+
+	h1 {
+		font-size: 5rem;
+		line-height: 4rem;
+
+		color: #0e0e0e;
+		padding-top: .5rem;
+
+		text-transform: uppercase;
+		font-family: 'Gliker Expanded';
+	}
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+#container .button-container {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	.btn {
+		width: 380px;
+		height: 85px;
+		border-radius: 42.5px;
+		background-color: #fdc830;
+		box-shadow: 0 0 0 1px rgba(57,76,96,.15);
+		display: flex;
+		align-items: center;
+
+		.circle {
+			display: flex;
+			position: absolute;
+			right: 1rem;
+			width: 52px;
+			height: 52px;
+			border-radius: 50%;
+			background-color: rgb(243, 115, 53);
+
+			.arrow {
+				clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
+				background-color: #fdc830;
+				width: 34px;
+				height: 34px;
+				position: absolute;
+				right: 9px;
+				top: 9px;
+			}
+		}
+ 	}
+
+	.learn-more p {
+		font-size: 1.9rem;
+		color: #000;
+		text-transform: uppercase;
+		text-align: left;
+		padding-left: 1.5rem;
+		font-family: 'Gliker Expanded';
+	}
+
+	.arrow-svg {
+		width: 0;
+		height: 0;
+	}
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}

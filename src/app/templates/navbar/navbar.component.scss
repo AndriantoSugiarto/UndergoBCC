@@ -1,0 +1,35 @@
+.navbar-container {
+	background-color: rgb(198, 226, 219);
+
+	.navbar {
+		color: #000000;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		.title {
+			text-align: center;
+			text-transform: uppercase;
+			.undergo-title {
+				font-size: 3rem;
+				font-family: "Gliker Expanded";
+				margin: 0;
+			}
+
+			.undergo-sub-title {
+				font-family: "Retropix";
+				margin: 0;
+			}
+		}
+
+		.menu {
+			.nav {
+				font-family: "Retropix";
+				color: #000000;
+				text-decoration: underline;
+				text-transform: uppercase;
+				padding-right: 1rem;
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
