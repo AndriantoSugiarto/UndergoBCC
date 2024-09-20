@@ -6,7 +6,7 @@ cd "$BASEPATH"
 git checkout build/main
 git pull
 git merge main --no-edit -X theirs
-ionic build --prod
+ionic build --prod -- --base-href https://andriantosugiarto.github.io/Undergo-BCC/
 if [ $? -eq 0 ]; then
 	cp htaccess httpdocs/.htaccess
 	git add httpdocs/
