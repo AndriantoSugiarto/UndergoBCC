@@ -2,8 +2,361 @@ ion-header {
 	background-color: rgb(198, 226, 219);
 	border-bottom: 2px solid #000000;
 }
+
 .undergo-container {
-	background-color: rgb(198, 226, 219);
 	width: 100%;
 	height: 100%;
+
+	.section-1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 100px;
+		padding-bottom: 25px;
+
+		.image-bg {
+			position: absolute;
+			width: 100%;
+
+			.img {
+				position: absolute;
+				width: 100%;
+				clip-path: inset(0px 0px 50% 0 round 0px);
+			}
+
+			.background {
+				z-index: 1;
+				top: -125px;
+			}
+
+			.effect {
+				z-index: 3;
+				top: 77px
+			}
+		}
+
+		.date-text, .place-text, .button-container {
+			z-index: 10;
+		}
+
+		.date-text {
+			color: #000000;
+			font-family: "Gliker Expanded";
+			font-size: 107px;
+			text-transform: uppercase;
+			text-align: center;
+			margin: 1rem;
+		}
+
+		.place-text {
+			color: #000000;
+			font-family: "Retropix";
+			font-size: 46px;
+			text-transform: uppercase;
+			text-align: center;
+			margin: 1rem;
+		}
+		.button-container {
+			display: flex;
+			position: relative;
+			.btn {
+				width: 604px;
+				height: 172px;
+				border-radius: 86px;
+				background-color: #fdc830;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				display: flex;
+				align-items: center;
+
+				.circle {
+					display: flex;
+					position: absolute;
+					right: 1rem;
+					width: 128px;
+					height: 128px;
+					border-radius: 50%;
+					background-color: rgb(243, 115, 53);
+					.arrow {
+						clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
+						background-color: #fdc830;
+						width: 100px;
+						height: 100px;
+						position: absolute;
+						right: 9px;
+						top: 15px;
+					}
+				}
+			 }
+
+			.btn-primary p {
+				font-size: 3.75rem;
+				color: #000;
+				text-transform: uppercase;
+				text-align: left;
+				padding-left: 3rem;
+				font-family: 'Gliker Expanded';
+			}
+
+			.arrow-svg {
+				width: 0;
+				height: 0;
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			.button-container {
+				.btn {
+					scale: .75;
+				}
+			}
+		}
+	}
+
+	.section-2 {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 4rem;
+		.section-text {
+			font-family: 'Gliker Expanded';
+			font-size: 6rem;
+		}
+
+		.line-up {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0 7rem;
+
+			.speaker {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 1rem;
+				width: 360px;
+				.speaker-img {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					.shape-1::before, .shape-2::before, .shape-3::before, .shape-4::before,
+					.shape-5::before, .shape-6::before, .shape-7::before, .shape-8::before {
+						content: url('../../assets/shape-line-up.svg');
+						width: 270px;
+						height: 270px;
+						position: absolute;
+						z-index: 0;
+					}
+
+					.shape-1, .shape-2, .shape-3, .shape-4, .shape-5, .shape-6, .shape-7, .shape-8{
+						width: 270px;
+						height: 270px;
+					}
+
+					.shape-1::after {
+						content: '';
+						background-image:  url('../../assets/images/ps-jefri-thresna.webp');
+						background-position: center;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-2::after {
+						content: '';
+						background-image:  url('../../assets/images/ps-winston-y.webp');
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-3::after, .shape-4::after {
+						content: '';
+						background-image:  url('../../assets/images/ps-jansen-bs.webp');
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-5::after {
+						content: '';
+						background-image:  url('../../assets/images/ello.webp');
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-6::after {
+						content: '';
+						background-image:  url('../../assets/images/raissa.webp');
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-7::after {
+						content: '';
+						background-image:  url('../../assets/images/nicky.webp');
+						background-position: top;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-8::after {
+						content: '';
+						background-image:  url('../../assets/images/nicky.webp');
+						background-position: top;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.text-container {
+						text-align: center;
+						p {
+							font-family: "Gliker Expanded";
+							font-size: 38px;
+							margin: 0;
+							text-shadow: 2px 4px #000000;
+							text-transform: uppercase;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.section-3 {
+		display: flex;
+		width: 100%;
+		height: 100%;
+
+		.undergo-about-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+
+			.about-container {
+				background-image: url('../../assets/images/undergo-section-3.webp');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				width: 80%;
+				height: 455px;
+				display: flex;
+				border-radius: 20px;
+				border: 6px solid #fdc830;
+
+				.text-container {
+					width: 50%;
+					padding: 1rem;
+					h3 {
+						font-family: 'Gliker Expanded';
+						font-size: 45px;
+						text-transform: uppercase;
+					}
+
+					p {
+						width: 90%;
+						font-family: 'Retropix';
+						font-size: 17.4pt;
+						text-align: center;
+						text-transform: uppercase;
+					}
+
+					.button-container {
+						display: flex;
+						position: relative;
+						padding-left: 30px;
+						.btn {
+							width: 417px;
+							height: 118px;
+							border-radius: 59px;
+							background-color: #fdc830;
+							box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+							display: flex;
+							align-items: center;
+
+							.circle {
+								display: flex;
+								position: absolute;
+								right: 22%;
+								width: 88px;
+								height: 88px;
+								border-radius: 50%;
+								background-color: rgb(243, 115, 53);
+								.arrow {
+									clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
+									background-color: #fdc830;
+									width: 68px;
+									height: 68px;
+									position: absolute;
+									right: 9px;
+									top: 10px;
+								}
+							}
+						 }
+
+						.btn-primary p {
+							font-size: 19.9pt;
+							color: #000;
+							text-transform: uppercase;
+							text-align: left;
+							padding-left: 3rem;
+							font-family: 'Gliker Expanded';
+						}
+
+						.arrow-svg {
+							width: 0;
+							height: 0;
+						}
+					}
+				}
+			}
+		}
+	}
 }
