@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1726931652094,
+  "timestamp": 1726932428373,
   "index": "https://andriantosugiarto.github.io/Undergo-BCC/index.html",
   "assetGroups": [
     {
@@ -34,7 +34,7 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/4463.68b86cc20703f9b4.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/4591.f1e4f7d9b760b863.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/4699.01733b3942afbe92.js",
-        "https://andriantosugiarto.github.io/Undergo-BCC/4901.82511d186eccfe37.js",
+        "https://andriantosugiarto.github.io/Undergo-BCC/4901.afe680747d4a051a.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/5075.cdb7e154b3daef01.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/5100.91ab2e55a25e7193.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/5197.8544f9c3d5e55dd5.js",
@@ -74,7 +74,7 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/polyfills-core-js.9b17e8c75eeccf74.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/polyfills-dom.bf542500b6fca113.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/polyfills.45b15749fa958a1d.js",
-        "https://andriantosugiarto.github.io/Undergo-BCC/runtime.a1aa4c5990ba8fec.js",
+        "https://andriantosugiarto.github.io/Undergo-BCC/runtime.897e91079b08818f.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/styles.20ecbbff8717a1bb.css"
       ],
       "patterns": []
@@ -1547,7 +1547,7 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/4463.68b86cc20703f9b4.js": "2541b5d46c7bac81313362bfc0f4860ee6dd9eb0",
     "https://andriantosugiarto.github.io/Undergo-BCC/4591.f1e4f7d9b760b863.js": "a8e47572f4fdb57e500c5e365bc27f4d709ac529",
     "https://andriantosugiarto.github.io/Undergo-BCC/4699.01733b3942afbe92.js": "4903163f2e1577a6aa0a36723a244fe67eafb840",
-    "https://andriantosugiarto.github.io/Undergo-BCC/4901.82511d186eccfe37.js": "b4bd5b4b5fc98e26ddedacc2da294d492a14d864",
+    "https://andriantosugiarto.github.io/Undergo-BCC/4901.afe680747d4a051a.js": "0b891af9833a3e87a415c7fe910a8a4dd54beb89",
     "https://andriantosugiarto.github.io/Undergo-BCC/5075.cdb7e154b3daef01.js": "747ae1f960a21b9a1cf0d960ed16fd2d49505f19",
     "https://andriantosugiarto.github.io/Undergo-BCC/5100.91ab2e55a25e7193.js": "c9ee0462ac30959e385057a8a2fff138cac6b263",
     "https://andriantosugiarto.github.io/Undergo-BCC/5197.8544f9c3d5e55dd5.js": "82ce4a1796751ecd38c117476f3d0ac3e327da5f",
@@ -1647,7 +1647,7 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/common.bdb89bc04e2ada7e.js": "e08bbb4e146a2a5014787f9b809aceca4bf380f9",
     "https://andriantosugiarto.github.io/Undergo-BCC/efferct-page1.e7926b1bb3079634.svg": "b6d482eb55753cd844c47947ba46690a73fa690e",
     "https://andriantosugiarto.github.io/Undergo-BCC/ello.ecdaab075360aaac.webp": "3b09b89b536b68327c4597e1d8becbfed02cae33",
-    "https://andriantosugiarto.github.io/Undergo-BCC/index.html": "730d7e003bf14347f7e4313f97c21738455675a1",
+    "https://andriantosugiarto.github.io/Undergo-BCC/index.html": "85a6051a8743aa8743a576f4b5b3393505a4b299",
     "https://andriantosugiarto.github.io/Undergo-BCC/main.94ea83fb341c78d0.js": "d5402616aef5e6ca3ec5e29601ae525acd654f70",
     "https://andriantosugiarto.github.io/Undergo-BCC/nicky.b66bc189e0d8828f.webp": "acf27c429c0d5e03aa476fc309e45196ec0f492c",
     "https://andriantosugiarto.github.io/Undergo-BCC/polyfills-core-js.9b17e8c75eeccf74.js": "79c38229b37c1b018dc0427b03319da272d1c3bf",
@@ -1658,7 +1658,7 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/ps-winston-y.0fd5e5acea7a2ac8.webp": "013ccb003f8e0d64d8e6e97cc6b4d317e4fa23a7",
     "https://andriantosugiarto.github.io/Undergo-BCC/raissa.2d39e2e6021d65d6.webp": "a444c6e6f78216c263acf1498c21b11f99ebac0a",
     "https://andriantosugiarto.github.io/Undergo-BCC/retropix.a28fd08993349d8a.otf": "1161e02e5646cda444a380594220c4caa4486069",
-    "https://andriantosugiarto.github.io/Undergo-BCC/runtime.a1aa4c5990ba8fec.js": "f5e33b2f6a7b1560f2927e5d9b6c2f8139642cb9",
+    "https://andriantosugiarto.github.io/Undergo-BCC/runtime.897e91079b08818f.js": "f7ba9f386827edbdfa651cc4f185f764c0f52f4e",
     "https://andriantosugiarto.github.io/Undergo-BCC/section-3.ac32a3d7dc74cea6.jpg": "81fa4f11d1b05a896aa0523e5f18fe6925a61d1f",
     "https://andriantosugiarto.github.io/Undergo-BCC/shape-line-up.c4af379db08e97f7.svg": "660a758869d8bdb27a4441516b6b6da917c285b8",
     "https://andriantosugiarto.github.io/Undergo-BCC/styles.20ecbbff8717a1bb.css": "435624156f0c55e83fffff45b9295d60a6381f7c",
