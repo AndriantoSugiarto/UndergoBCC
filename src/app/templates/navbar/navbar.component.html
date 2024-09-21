@@ -1,14 +1,26 @@
-<nav class="navbar-container">
+<div class="navbar-container">
 	<a class="navbar" routerLink="/">
-		<span class="title">
-			<p class="undergo-title">UNDERGO</p>
-			<p class="undergo-sub-title">For Community College</p>
-		</span>
-		<span class="menu">
-			<a class="nav">About</a>
-			<a class="nav">Experience</a>
-			<a class="nav">Book A Ticket</a>
-			<a class="nav">Faq</a>
-		</span>
+		<div class="section-title">
+			<span class="title">
+				<p class="undergo-title">UNDERGO</p>
+				<p class="undergo-sub-title">For Community College</p>
+			</span>
+			<div class="hamburger-icon" id="icon" (click)="toggleMenu()">
+				<div class="icon-1" id="a"></div>
+				<div class="icon-2" id="b"></div>
+				<div class="icon-3" id="c"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="section-menu">
+			<nav id="nav" class="hide">
+				<ul class="menu">
+					<li><a class="nav-list">About</a></li>
+					<li><a class="nav-list">Experience</a></li>
+					<li><a class="nav-list">Book A Ticket</a></li>
+					<li><a class="nav-list">Faq</a></li>
+				</ul>
+			</nav>
+		</div>
 	</a>
-</nav>
+</div>
