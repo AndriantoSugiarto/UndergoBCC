@@ -311,7 +311,9 @@ ion-header {
 		}
 
 		@media screen and (max-width: 1400px) {
-			
+			.line-up {
+				padding: 0;
+			}
 		}
 
 		@media screen and (max-width: 768px) {
