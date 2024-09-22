@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1726978945322,
+  "timestamp": 1726981049500,
   "index": "https://andriantosugiarto.github.io/Undergo-BCC/index.html",
   "assetGroups": [
     {
@@ -35,7 +35,7 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/4591.f1e4f7d9b760b863.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/4699.01733b3942afbe92.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/4901.e6040a1634ee1df2.js",
-        "https://andriantosugiarto.github.io/Undergo-BCC/5075.cdb7e154b3daef01.js",
+        "https://andriantosugiarto.github.io/Undergo-BCC/5075.02c4615099da0358.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/5100.91ab2e55a25e7193.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/5197.8544f9c3d5e55dd5.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/5222.a2fb854c0accab03.js",
@@ -74,7 +74,7 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/polyfills-core-js.9b17e8c75eeccf74.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/polyfills-dom.bf542500b6fca113.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/polyfills.45b15749fa958a1d.js",
-        "https://andriantosugiarto.github.io/Undergo-BCC/runtime.de191bf696a2eead.js",
+        "https://andriantosugiarto.github.io/Undergo-BCC/runtime.470ebcd5af27b0e2.js",
         "https://andriantosugiarto.github.io/Undergo-BCC/styles.20ecbbff8717a1bb.css"
       ],
       "patterns": []
@@ -136,6 +136,7 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/icon/favicon.png",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/UNDERGO 2024 WEBSITE.png",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/airplane-animation.gif",
+        "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/background-home.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/background-page1.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/ello.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/nicky.webp",
@@ -149,6 +150,7 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/undergo-section-3.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/shape-line-up.svg",
         "https://andriantosugiarto.github.io/Undergo-BCC/assets/shapes.svg",
+        "https://andriantosugiarto.github.io/Undergo-BCC/background-home.939945866d2cb03a.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/background-page1.c31664a956f03e6b.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/efferct-page1.e7926b1bb3079634.svg",
         "https://andriantosugiarto.github.io/Undergo-BCC/ello.ecdaab075360aaac.webp",
@@ -1516,7 +1518,6 @@
         "https://andriantosugiarto.github.io/Undergo-BCC/svg/woman-outline.svg",
         "https://andriantosugiarto.github.io/Undergo-BCC/svg/woman-sharp.svg",
         "https://andriantosugiarto.github.io/Undergo-BCC/svg/woman.svg",
-        "https://andriantosugiarto.github.io/Undergo-BCC/undergo-2023.54f6dd998c3cbde2.webp",
         "https://andriantosugiarto.github.io/Undergo-BCC/undergo-section-3.05ff310ab1e13e23.webp"
       ],
       "patterns": []
@@ -1548,7 +1549,7 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/4591.f1e4f7d9b760b863.js": "a8e47572f4fdb57e500c5e365bc27f4d709ac529",
     "https://andriantosugiarto.github.io/Undergo-BCC/4699.01733b3942afbe92.js": "4903163f2e1577a6aa0a36723a244fe67eafb840",
     "https://andriantosugiarto.github.io/Undergo-BCC/4901.e6040a1634ee1df2.js": "f51e70fba7a98cba381a02b4cd33f668612e704a",
-    "https://andriantosugiarto.github.io/Undergo-BCC/5075.cdb7e154b3daef01.js": "747ae1f960a21b9a1cf0d960ed16fd2d49505f19",
+    "https://andriantosugiarto.github.io/Undergo-BCC/5075.02c4615099da0358.js": "d2f017468dfad5b4feb4386596061cb505b46ca9",
     "https://andriantosugiarto.github.io/Undergo-BCC/5100.91ab2e55a25e7193.js": "c9ee0462ac30959e385057a8a2fff138cac6b263",
     "https://andriantosugiarto.github.io/Undergo-BCC/5197.8544f9c3d5e55dd5.js": "82ce4a1796751ecd38c117476f3d0ac3e327da5f",
     "https://andriantosugiarto.github.io/Undergo-BCC/5222.a2fb854c0accab03.js": "f359fe49ea02c45e5eeceed9362fdfba2eef9333",
@@ -1630,6 +1631,7 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/UNDERGO 2024 WEBSITE.png": "e1c0bbfcdf29f3a76c904b07e72f4a5d82e97a5b",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/airplane-animation.gif": "1e13f8bcea799d22afc5dde89a22b73a76f40a34",
+    "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/background-home.webp": "702560c0b98d10b79444f61aa605412b82bce1a1",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/background-page1.webp": "94e1aa42058a41709d2465b1a42a835eb340b192",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/ello.webp": "3b09b89b536b68327c4597e1d8becbfed02cae33",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/nicky.webp": "acf27c429c0d5e03aa476fc309e45196ec0f492c",
@@ -1643,11 +1645,12 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/images/undergo-section-3.webp": "4636af8c957d634e98c78fd11a4d2973ea0f0ddc",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/shape-line-up.svg": "660a758869d8bdb27a4441516b6b6da917c285b8",
     "https://andriantosugiarto.github.io/Undergo-BCC/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
+    "https://andriantosugiarto.github.io/Undergo-BCC/background-home.939945866d2cb03a.webp": "702560c0b98d10b79444f61aa605412b82bce1a1",
     "https://andriantosugiarto.github.io/Undergo-BCC/background-page1.c31664a956f03e6b.webp": "94e1aa42058a41709d2465b1a42a835eb340b192",
     "https://andriantosugiarto.github.io/Undergo-BCC/common.bdb89bc04e2ada7e.js": "e08bbb4e146a2a5014787f9b809aceca4bf380f9",
     "https://andriantosugiarto.github.io/Undergo-BCC/efferct-page1.e7926b1bb3079634.svg": "b6d482eb55753cd844c47947ba46690a73fa690e",
     "https://andriantosugiarto.github.io/Undergo-BCC/ello.ecdaab075360aaac.webp": "3b09b89b536b68327c4597e1d8becbfed02cae33",
-    "https://andriantosugiarto.github.io/Undergo-BCC/index.html": "0579e99d8e343cded770d782c86a42748e9ee5ec",
+    "https://andriantosugiarto.github.io/Undergo-BCC/index.html": "26cb08337c0aa4499920938317a16334df70b984",
     "https://andriantosugiarto.github.io/Undergo-BCC/main.94ea83fb341c78d0.js": "d5402616aef5e6ca3ec5e29601ae525acd654f70",
     "https://andriantosugiarto.github.io/Undergo-BCC/nicky.b66bc189e0d8828f.webp": "acf27c429c0d5e03aa476fc309e45196ec0f492c",
     "https://andriantosugiarto.github.io/Undergo-BCC/polyfills-core-js.9b17e8c75eeccf74.js": "79c38229b37c1b018dc0427b03319da272d1c3bf",
@@ -1658,7 +1661,7 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/ps-winston-y.0fd5e5acea7a2ac8.webp": "013ccb003f8e0d64d8e6e97cc6b4d317e4fa23a7",
     "https://andriantosugiarto.github.io/Undergo-BCC/raissa.2d39e2e6021d65d6.webp": "a444c6e6f78216c263acf1498c21b11f99ebac0a",
     "https://andriantosugiarto.github.io/Undergo-BCC/retropix.a28fd08993349d8a.otf": "1161e02e5646cda444a380594220c4caa4486069",
-    "https://andriantosugiarto.github.io/Undergo-BCC/runtime.de191bf696a2eead.js": "ec81e937667cd70263a4fe7dd5a0fffbd34086a2",
+    "https://andriantosugiarto.github.io/Undergo-BCC/runtime.470ebcd5af27b0e2.js": "b7b78da6b00f3f907b3a43469edb1e12ba1a6eec",
     "https://andriantosugiarto.github.io/Undergo-BCC/section-3.ac32a3d7dc74cea6.jpg": "81fa4f11d1b05a896aa0523e5f18fe6925a61d1f",
     "https://andriantosugiarto.github.io/Undergo-BCC/shape-line-up.c4af379db08e97f7.svg": "660a758869d8bdb27a4441516b6b6da917c285b8",
     "https://andriantosugiarto.github.io/Undergo-BCC/styles.20ecbbff8717a1bb.css": "435624156f0c55e83fffff45b9295d60a6381f7c",
@@ -3018,7 +3021,6 @@
     "https://andriantosugiarto.github.io/Undergo-BCC/svg/woman-outline.svg": "2a4e166cd98fc8ef9a73ce93d8d21e3c42f0b8e6",
     "https://andriantosugiarto.github.io/Undergo-BCC/svg/woman-sharp.svg": "6461c19620bba789ae71c7e9734b66890ed01cb1",
     "https://andriantosugiarto.github.io/Undergo-BCC/svg/woman.svg": "8a2c445c32609314f712b55bedb82a256d357176",
-    "https://andriantosugiarto.github.io/Undergo-BCC/undergo-2023.54f6dd998c3cbde2.webp": "ed6ce0acb6f1cf5a1fa0c0b0429938d430c81f21",
     "https://andriantosugiarto.github.io/Undergo-BCC/undergo-section-3.05ff310ab1e13e23.webp": "4636af8c957d634e98c78fd11a4d2973ea0f0ddc"
   },
   "navigationUrls": [
