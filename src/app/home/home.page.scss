@@ -1,21 +1,21 @@
 #container {
-	background-image: url(../../assets/images/undergo-2023.webp);
+	background-image: url(../../assets/images/background-home.webp);
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	text-align: center;
-	-webkit-box-shadow: inset 0 0 300px #000000;
-	-moz-box-shadow: inset 0 0 300px #000000;
-	box-shadow: inset 0 0 300px #000000;
+	// -webkit-box-shadow: inset 0 0 300px #000000;
+	// -moz-box-shadow: inset 0 0 300px #000000;
+	// box-shadow: inset 0 0 300px #000000;
 
 
 	h2 {
 		font-size: 2.5rem;
 		line-height: 1.5rem;
 
-		color: #242424;
+		color: #ffffff;
 
 		margin: 0;
 		padding-top: 2rem;
@@ -81,7 +81,7 @@
 		width: 380px;
 		height: 85px;
 		border-radius: 42.5px;
-		background-color: #fdc830;
+		background-color: #234dff;
 		box-shadow: 0 0 0 1px rgba(57,76,96,.15);
 		display: flex;
 		align-items: center;
@@ -93,11 +93,11 @@
 			width: 52px;
 			height: 52px;
 			border-radius: 50%;
-			background-color: rgb(243, 115, 53);
+			background-color: rgb(183,84,220);
 
 			.arrow {
 				clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
-				background-color: #fdc830;
+				background-color: #234dff;
 				width: 34px;
 				height: 34px;
 				position: absolute;
@@ -109,7 +109,7 @@
 
 	.learn-more p {
 		font-size: 1.9rem;
-		color: #000;
+		color: #fff;
 		text-transform: uppercase;
 		text-align: left;
 		padding-left: 1.5rem;
