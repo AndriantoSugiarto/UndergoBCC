@@ -129,6 +129,20 @@
 	src: url("assets/fonts/retropix.otf") format("opentype");
 }
 
+@each $filename, $style, $weight in ("Thin", normal, 100), ("ThinItalic", italic, 100), ("ExtraLight", normal, 200),
+	("ExtraLightItalic", italic, 200), ("Light", normal, 300), ("LightItalic", italic, 300), ("Regular", normal, 400),
+	("Italic", italic, 400), ("Medium", normal, 500), ("MediumItalic", italic, 500), ("SemiBold", normal, 600),
+	("SemiBoldItalic", italic, 600), ("Bold", normal, 700), ("BoldItalic", italic, 700), ("ExtraBold", normal, 800),
+	("ExtraBoldItalic", italic, 800), ("Black", normal, 900), ("BlackItalic", italic, 900)
+{
+	@font-face {
+		font-family: "Poppins";
+		src: url("./assets/fonts/Poppins/Poppins-#{$filename}.ttf") format("truetype");
+		font-style: $style;
+		font-weight: $weight;
+	}
+}
+
 body {
 	--ion-background-color: rgb(198, 226, 219);
 }

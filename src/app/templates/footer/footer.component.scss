@@ -1,0 +1,50 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+
+	.footer-text {
+		text-align: center;
+		text-transform: uppercase;
+		.text {
+			font-size: 32px;
+			font-family: 'Poppins';
+			font-weight: 800;
+			margin: 0;
+			color: rgb(0,0,0);
+			line-height: 35px;
+			letter-spacing: 0.264em;
+		}
+
+		.text-2 {
+			font-family: "Poppins";
+			font-size: 18.667px;
+			font-weight: 800;
+			line-height: 26px;
+			letter-spacing: 0.264em;
+			color: rgb(0,0,0);
+			margin: 0.5rem;
+		}
+	}
+
+	.logo-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 1rem;
+
+		.logo-ecc {
+			width: 64px;
+			height: 86px;
+			margin-right: 1.5rem;
+		}
+
+		.bridge-logo {
+			width: 157px;
+			height: 58px;
+		}
+	}
+}
