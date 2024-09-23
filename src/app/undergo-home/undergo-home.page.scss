@@ -161,25 +161,24 @@ ion-header {
 		.section-text {
 			font-family: 'Gliker Expanded';
 			font-size: 6rem;
+			margin-top: 2rem;
 		}
 
 		.line-up {
 			width: 100%;
 			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(394px, 1fr));
-			grid-template-rows: repeat(auto-fit, minmax(360px, 1fr));
-			gap: 1rem;
+			grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+			grid-template-rows: repeat(auto-fit, minmax(330px, 1fr));
 			justify-content: center;
 			align-items: center;
-			padding: 0 7rem;
+			padding: 2rem 10rem;
 
 			.speaker {
 				display: flex;
 				justify-content: center;
 				align-items: flex-start;
-				padding: 1rem;
-				width: 360px;
-				height: 394px;
+				width: 330px;
+				height: 390px;
 				.speaker-img {
 					display: flex;
 					flex-direction: column;
@@ -203,8 +202,10 @@ ion-header {
 					.shape-1::after {
 						content: '';
 						background-image:  url('../../assets/images/ps-jefri-thresna.webp');
-						background-position: center;
+						background-position: 100% 65%;
+						background-size: 220%;
 						border-radius: 50%;
+						background-repeat: no-repeat;
 						width: 218px;
 						height: 218px;
 						position: absolute;
@@ -215,7 +216,7 @@ ion-header {
 					.shape-2::after {
 						content: '';
 						background-image:  url('../../assets/images/ps-winston-y.webp');
-						background-position: center;
+						background-position: 100% 97%;
 						background-repeat: no-repeat;
 						background-size: cover;
 						border-radius: 50%;
@@ -226,9 +227,23 @@ ion-header {
 						transform: translate(12%,12%);
 					}
 
-					.shape-3::after, .shape-4::after {
+					.shape-3::after {
 						content: '';
 						background-image:  url('../../assets/images/ps-jansen-bs.webp');
+						background-position: 100% 90%;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 50%;
+						width: 218px;
+						height: 218px;
+						position: absolute;
+						z-index: 1;
+						transform: translate(12%,12%);
+					}
+
+					.shape-4::after {
+						content: '';
+						background-image:  url('../../assets/images/the-youth-pastors.webp');
 						background-position: center;
 						background-repeat: no-repeat;
 						background-size: cover;
@@ -243,7 +258,7 @@ ion-header {
 					.shape-5::after {
 						content: '';
 						background-image:  url('../../assets/images/ello.webp');
-						background-position: center;
+						background-position: 100% 60%;
 						background-repeat: no-repeat;
 						background-size: cover;
 						border-radius: 50%;
@@ -257,9 +272,9 @@ ion-header {
 					.shape-6::after {
 						content: '';
 						background-image:  url('../../assets/images/raissa.webp');
-						background-position: center;
+						background-position: 51% 46%;
 						background-repeat: no-repeat;
-						background-size: cover;
+						background-size: 360%;
 						border-radius: 50%;
 						width: 218px;
 						height: 218px;
@@ -271,9 +286,9 @@ ion-header {
 					.shape-7::after {
 						content: '';
 						background-image:  url('../../assets/images/nicky.webp');
-						background-position: top;
+						background-position: 65% 28%;
 						background-repeat: no-repeat;
-						background-size: cover;
+						background-size: 130%;
 						border-radius: 50%;
 						width: 218px;
 						height: 218px;
@@ -285,9 +300,9 @@ ion-header {
 					.shape-8::after {
 						content: '';
 						background-image:  url('../../assets/images/nicky.webp');
-						background-position: top;
+						background-position: 65% 28%;
 						background-repeat: no-repeat;
-						background-size: cover;
+						background-size: 130%;
 						border-radius: 50%;
 						width: 218px;
 						height: 218px;
@@ -298,9 +313,12 @@ ion-header {
 
 					.text-container {
 						text-align: center;
+						margin-top: .5rem;
 						p {
 							font-family: "Gliker Expanded";
-							font-size: 38px;
+							font-size: 32px;
+							line-height: 37px;
+							letter-spacing: 0.083em;
 							margin: 0;
 							text-shadow: 2px 4px #000000;
 							text-transform: uppercase;
@@ -333,9 +351,12 @@ ion-header {
 
 	.section-3 {
 		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 		width: 100%;
-		height: 100%;
-		padding: 8rem 0;
+		height: auto;
+		padding: 2rem 0;
 		background-image: url('../../assets/images/section-3.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -351,42 +372,57 @@ ion-header {
 			padding: 2rem 0;
 
 			.about-container {
-				background-image: url('../../assets/images/undergo-section-3.webp');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: center left;
-				background-color: rgb(0, 0, 0, .75);
+				background-color: rgb(0, 0, 0);
 				background-blend-mode: lighten;
-				width: 80%;
-				height: 455px;
+				width: 67%;
+				height: 491px;
 				display: flex;
 				border-radius: 20px;
 				border: 6px solid #fdc830;
 
+				#background-video {
+					width: 100%;
+					object-fit: cover;
+					position: relative;
+					z-index: 1;
+					opacity: .44;
+				}
+
 				.text-container {
-					width: 50%;
+					width: 40%;
 					padding: 1rem;
 					text-align: center;
+					position: absolute;
+					z-index: 10;
 					h3 {
+						width: 85%;
 						font-family: 'Gliker Expanded';
 						font-size: 45px;
+						line-height: 0.84948966em;
+						text-align: center;
 						text-transform: uppercase;
+						letter-spacing: 0.083em;
+						text-shadow: 0.08838835em 0.08838835em 0em rgba(0, 0, 0, 0.570000);
 					}
 
 					p {
+						width: 80%;
 						font-family: 'Retropix';
-						font-size: 17.4pt;
+						font-size: 21px;
 						text-transform: uppercase;
+						line-height: 24px;
+						letter-spacing: 0.083em;
 					}
 
 					.button-container {
+						width: 75%;
 						display: flex;
 						position: relative;
 						justify-content: center;
 						.btn {
-							width: 417px;
-							height: 118px;
-							border-radius: 59px;
+							width: 400px;
+							height: 100px;
+							border-radius: 50px;
 							background-color: #fdc830;
 							box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 							display: flex;
@@ -395,16 +431,16 @@ ion-header {
 							.circle {
 								display: flex;
 								position: absolute;
-								right: 23%;
-								width: 88px;
-								height: 88px;
+								right: 16%;
+								width: 77px;
+								height: 77px;
 								border-radius: 50%;
 								background-color: rgb(243, 115, 53);
 								.arrow {
 									clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
 									background-color: #fdc830;
-									width: 68px;
-									height: 68px;
+									width: 57px;
+									height: 57px;
 									position: absolute;
 									right: 9px;
 									top: 10px;
@@ -413,11 +449,11 @@ ion-header {
 						 }
 
 						.btn-primary p {
-							font-size: 19.9pt;
+							font-size: 26.3px;
 							color: #000;
 							text-transform: uppercase;
 							text-align: left;
-							padding-left: 2.25rem;
+							padding-left: 1rem;
 							font-family: 'Gliker Expanded';
 						}
 
@@ -428,25 +464,87 @@ ion-header {
 					}
 				}
 			}
+		}
 
-			@media screen and (max-width: 768px) {
-				.about-container {
-					background-position: center;
-					height: 100%;
+		@media screen and (max-width: 1400px) {
+			.undergo-about-container {
+				.about-container{
+					width: 90%;
+					height: 450px;
 
 					.text-container {
-						width: 100%;
+						width: 45%;
 
 						h3 {
-							font-size: 22.5px;
+							width: 100%;
+							font-size: 40px;
 						}
 
 						p {
-							font-size: 15pt;
-							text-align: justify;
+							width: 100%;
+							font-size: 18px;
 						}
 
 						.button-container {
+							width: 100%;
+							.btn {
+								height: 90px;
+								border-radius: 45px;
+
+								.circle {
+									width: 77px;
+									height: 77px;
+									right: 15%;
+
+									.arrow {
+										width: 59px;
+										height: 59px;
+										position: absolute;
+										right: 6px;
+										top: 9px;
+									}
+								}
+							}
+
+							.btn-primary p {
+								font-size: 26px;
+							}
+						}
+					}
+				}
+			}
+
+		}
+
+		@media screen and (max-width: 768px) {
+			.undergo-about-container {
+				.about-container {
+					width: 95%;
+					display: flex;
+					flex-direction: column;
+					height: auto;
+
+					#background-video {
+						height: 245.5px;
+						opacity: .66;
+					}
+
+					.text-container {
+						width: 100%;
+						position: relative;
+
+						h3 {
+							width: 100%;
+							font-size: 25px;
+						}
+
+						p {
+							width: 100%;
+							font-size: 12pt;
+						}
+
+						.button-container {
+							width: 100%;
 							.btn {
 								height: 90px;
 								border-radius: 45px;
@@ -464,6 +562,10 @@ ion-header {
 										top: 9px;
 									}
 								}
+							}
+
+							.btn-primary p {
+								font-size: 23px;
 							}
 						}
 					}
