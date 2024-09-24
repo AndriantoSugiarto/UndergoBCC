@@ -13,7 +13,7 @@ ion-header {
 		align-items: center;
 		flex-direction: column;
 		width: 100%;
-		height: 85%;
+		padding-top: 8em;
 
 		.image-bg {
 			position: absolute;
@@ -124,8 +124,54 @@ ion-header {
 			}
 		}
 
+		@media screen and (max-width: 1400px) {
+			.image-bg {
+				.background {
+					background-size: 125%;
+				}
+
+				.gif-animation {
+					top: 60%;
+					height: 40%;
+				}
+			}
+		}
+
+		@media screen and (max-width: 1200px) {
+			.image-bg {
+				.background {
+					background-size: 150%;
+				}
+
+				.gif-animation {
+					top: 60%;
+					height: 40%;
+				}
+			}
+		}
+
+		@media screen and (max-width:1050px) {
+			.image-bg {
+				.background {
+					background-size: 175%;
+				}
+
+				.gif-animation {
+					top: 60%;
+					height: 40%;
+				}
+			}
+
+			.date-text {
+				font-size: 5rem;
+			}
+		}
+
 		@media screen and (max-width: 768px) {
 			.image-bg {
+				.background {
+					background-size: 210%;
+				}
 				.effect {
 					height: 100%;
 				}
@@ -145,7 +191,32 @@ ion-header {
 			}
 		}
 
+		@media screen and (max-width: 600px) {
+			.image-bg {
+				.background {
+					background-size: 290%;
+				}
+			}
+
+			.date-text {
+				font-size: 2.25rem;
+				line-height: 2.25rem;
+			}
+
+			.place-text {
+				font-size: 1.5rem;
+				margin-bottom: 0;
+			}
+		}
+
 		@media screen and (max-width: 400px) {
+			.image-bg {
+				.background {
+					background-size: 330%;
+				}
+			}
+
+
 			.button-container {
 				.btn {
 					scale: .5;
