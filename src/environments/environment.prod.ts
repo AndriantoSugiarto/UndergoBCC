@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  url: 'http://eccbridge.my.id/'
+  url: 'https://eccbridge.my.id/'
 };
