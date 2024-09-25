@@ -6,23 +6,47 @@
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
-		.title {
-			text-align: center;
-			text-transform: uppercase;
-			.undergo-title {
-				font-size: 3rem;
-				font-family: "Gliker Expanded";
-				margin: 0;
+		padding: .5rem 0;
+		.section-title {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.link-home {
+				text-decoration: none;
+				width: 105px;
+				height: 86px;
+				margin-right: 1rem;
+				.undergo-logo {
+					width: 100%;
+					height: 100%;
+				}
 			}
 
-			.undergo-sub-title {
-				font-family: "Retropix";
-				margin: 0;
-			}
-		}
+			.title {
+				text-align: justify;
+				text-transform: uppercase;
+				.undergo-title {
+					font-size: 3rem;
+					font-family: "Futura";
+					font-weight: 900;
+					margin: 0;
+					line-height: 0.85416667em;
+					letter-spacing: 0.083em;
+				}
 
-		#icon {
-			display: none;
+				.undergo-sub-title {
+					font-family: "Futura";
+					font-weight: bold;
+					font-size: 1.5rem;
+					margin: .25rem 0;
+					line-height: 1.0999945em;
+					letter-spacing: 0.083em;
+				}
+			}
+
+			#icon {
+				display: none;
+			}
 		}
 
 		.menu {
@@ -34,7 +58,9 @@
 				font-family: "Retropix";
 				color: #000000;
 				text-decoration: underline;
+				line-height: 1.11812276em;
 				text-transform: uppercase;
+				letter-spacing: 0.083em;
 				padding-right: 1rem;
 				font-size: 1.5rem;
 			}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Constants } from 'src/app/classes/constants';
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent  implements OnInit {
-
+	logo_undergo_url:string = Constants.BASE_API_URL+"assets/icon/undergo-cc-24.svg";
 	constructor() {
 	}
 
