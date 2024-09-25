@@ -545,7 +545,7 @@ ion-header {
 						 }
 
 						.btn-primary p {
-							font-size: 2.158rem;
+							font-size: 2.489rem;
 							color: #000;
 							text-transform: uppercase;
 							text-align: center;
@@ -626,7 +626,8 @@ ion-header {
 						}
 						.button-container {
 							.btn-primary p {
-								font-size: calc(2.158rem * .9);
+								font-size: calc(2.489rem * .8);
+								padding-left: .5rem;
 							}
 						}
 					}
