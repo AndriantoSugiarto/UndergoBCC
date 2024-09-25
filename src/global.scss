@@ -132,13 +132,34 @@
 @font-face {
 	font-family: "Futura";
 	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
-	font-weight: 900;
+	font-weight: 800;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Futura";
 	src: url("assets/fonts/Futura/Futura\ Bold\ font.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Futura";
+	src: url("assets/fonts/Futura/Futura\ Extra\ Black\ font.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("assets/fonts/FuturaPT/FuturaPTExtraBold.otf") format("opentype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("assets/fonts/FuturaPT/FuturaPTBold.otf") format("opentype");
 	font-weight: bold;
 	font-style: normal;
 }

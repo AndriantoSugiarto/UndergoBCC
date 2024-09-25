@@ -1,5 +1,5 @@
 ion-header {
-	background-color: rgb(198, 226, 219);
+	--background: rgb(0, 0, 0);
 	border-bottom: 2px solid #000000;
 }
 
@@ -24,7 +24,6 @@ ion-header {
 				position: absolute;
 				width: 100%;
 				height: 100%;
-				clip-path: inset(0px 0px 50% 0 round 0px);
 			}
 
 			.img-2 {
@@ -35,11 +34,10 @@ ion-header {
 
 			.background {
 				z-index: 1;
-				top: 50%;
 				background-image: url('../../assets/images/background-page1.webp');
 				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
+				background-size: contain;
+				background-position: bottom;
 			}
 
 			.effect {
@@ -67,23 +65,27 @@ ion-header {
 
 		.date-text {
 			color: #000000;
-			font-family: "Gliker Expanded";
-			font-size: 107px;
+			font-family: "FuturaPT";
+			font-weight: 800;
+			font-size: 7.3125rem;
+			line-height: 6.125rem;
+			letter-spacing: 0.174em;
 			text-transform: uppercase;
 			text-align: center;
 			margin: 0rem 0;
-			line-height: 6.5rem;
-			margin-bottom: 2rem;
 		}
 
 		.place-text {
 			color: #000000;
-			font-family: "Retropix";
-			font-size: 46px;
+			font-family: "FuturaPT";
+			font-weight: bold;
+			font-size: 2.9rem;
 			text-transform: uppercase;
 			text-align: center;
 			margin: 0rem 0;
 			margin-bottom: 2rem;
+			line-height: 1.13817437em;
+			letter-spacing: 0.083em;
 		}
 
 		.button-container {
@@ -114,30 +116,20 @@ ion-header {
 			 }
 
 			.btn-primary p {
-				font-size: 3.5rem;
+				font-size: 3.3rem;
+				font-weight: 800;
 				color: #000;
 				text-transform: uppercase;
 				text-align: left;
-				padding-left: 2rem;
 				padding-bottom: 1.5rem;
-				font-family: 'Gliker Expanded';
+				font-family: 'FuturaPT';
+				line-height: 0.87em;
+				letter-spacing: -0.041em;
+				padding-left: 1rem;
 			}
 		}
 
 		@media screen and (max-width: 1400px) {
-			.image-bg {
-				.background {
-					background-size: 125%;
-				}
-
-				.gif-animation {
-					top: 60%;
-					height: 40%;
-				}
-			}
-		}
-
-		@media screen and (max-width: 1200px) {
 			.image-bg {
 				.background {
 					background-size: 150%;
@@ -232,16 +224,22 @@ ion-header {
 		align-items: center;
 		flex-direction: column;
 		.section-text {
-			font-family: 'Gliker Expanded';
+			font-family: 'FuturaPT';
+			font-weight: 800;
 			font-size: 6rem;
 			margin-top: 6rem;
+			line-height: 0.87em;
+			letter-spacing: 0.083em;
+			text-transform: uppercase;
+			text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.400000);
 		}
 
 		.line-up {
 			width: 100%;
 			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
-			grid-template-rows: repeat(auto-fit, minmax(330px, 1fr));
+			grid-template-columns: repeat(4, minmax(280px, 1fr));
+			grid-template-rows: repeat(2, minmax(330px, 1fr));
+			gap: 1.5rem 0;
 			justify-content: center;
 			align-items: center;
 			padding: 2rem 10rem;
@@ -252,8 +250,8 @@ ion-header {
 				display: flex;
 				justify-content: center;
 				align-items: flex-start;
-				width: 330px;
-				height: 390px;
+				width: 280px;
+				height: 330px;
 				.speaker-img {
 					display: flex;
 					flex-direction: column;
@@ -346,10 +344,10 @@ ion-header {
 
 					.shape-6::after {
 						content: '';
-						background-image:  url('../../assets/images/raissa.webp');
-						background-position: 51% 46%;
+						background-image:  url('../../assets/images/ecc-performing-art.webp');
+						background-position: 54% 46%;
 						background-repeat: no-repeat;
-						background-size: 360%;
+						background-size: 150%;
 						border-radius: 50%;
 						width: 218px;
 						height: 218px;
@@ -388,15 +386,20 @@ ion-header {
 
 					.text-container {
 						text-align: center;
-						margin-top: .5rem;
+						margin-top: 1rem;
+						width: 100%;
 						p {
-							font-family: "Gliker Expanded";
-							font-size: 32px;
-							line-height: 37px;
+							font-family: "FuturaPT";
+							font-size: 1.875rem;
+							line-height: 0.87em;
 							letter-spacing: 0.083em;
 							margin: 0;
-							text-shadow: 2px 4px #000000;
+							text-shadow: 0.08838835em 0.08838835em 0em rgba(0, 0, 0, 0.570000);
 							text-transform: uppercase;
+						}
+
+						.text-custom {
+							font-size: 1.75rem;
 						}
 					}
 				}
@@ -410,8 +413,8 @@ ion-header {
 				grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
 
 				.speaker {
-					width: 300px;
-					height: 360px;
+					width: 280px;
+					height: 330px;
 
 					.speaker-img {
 
@@ -468,8 +471,11 @@ ion-header {
 				width: 67%;
 				height: 491px;
 				display: flex;
+				justify-content: center;
+				align-items: center;
 				border-radius: 20px;
 				border: 6px solid #fdc830;
+				overflow: hidden;
 
 				#background-video {
 					width: 100%;
@@ -481,33 +487,33 @@ ion-header {
 				}
 
 				.text-container {
-					width: 40%;
+					width: 64%;
+					height: 491px;
 					padding: 1rem;
 					text-align: center;
 					position: absolute;
 					z-index: 10;
 					h3 {
-						width: 85%;
-						font-family: 'Gliker Expanded';
-						font-size: 45px;
-						line-height: 0.84948966em;
+						font-family: 'FuturaPT';
+						font-weight: 800;
+						font-size: 3.2rem;
+						line-height: 0.84em;
 						text-align: center;
 						text-transform: uppercase;
 						letter-spacing: 0.083em;
 						text-shadow: 0.08838835em 0.08838835em 0em rgba(0, 0, 0, 0.570000);
+						margin-bottom: 6rem;
 					}
 
 					p {
-						width: 80%;
-						font-family: 'Retropix';
-						font-size: 21px;
+						font-family: 'FuturaPT';
+						font-size: 1.45rem;
 						text-transform: uppercase;
-						line-height: 24px;
+						line-height: 1.119em;
 						letter-spacing: 0.083em;
 					}
 
 					.button-container {
-						width: 80%;
 						display: flex;
 						position: relative;
 						margin-top: 1rem;
@@ -557,20 +563,14 @@ ion-header {
 					height: 450px;
 
 					.text-container {
-						width: 45%;
+						width: 90%;
 
 						h3 {
-							width: 100%;
 							font-size: 40px;
 						}
 
 						p {
-							width: 100%;
 							font-size: 18px;
-						}
-
-						.button-container {
-							width: 100%;
 						}
 					}
 				}
@@ -589,24 +589,24 @@ ion-header {
 					#background-video {
 						height: 245.5px;
 						opacity: .66;
+						border-bottom-left-radius: 0;
+						border-bottom-right-radius: 0;
 					}
 
 					.text-container {
 						width: 100%;
+						height: 100%;
 						position: relative;
 
 						h3 {
 							width: 100%;
 							font-size: 25px;
+							margin-bottom: 1rem;
 						}
 
 						p {
 							width: 100%;
 							font-size: 12pt;
-						}
-
-						.button-container {
-
 						}
 					}
 				}
@@ -617,6 +617,10 @@ ion-header {
 			.undergo-about-container {
 				.about-container {
 					.text-container {
+						height: 100%;
+						h3 {
+							margin-bottom: 1rem;
+						}
 						.button-container {
 							.btn-primary p {
 								font-size: calc(1.75rem * .75);

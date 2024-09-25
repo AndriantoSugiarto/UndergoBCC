@@ -48,3 +48,17 @@
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.footer {
+		.footer-text {
+			.text {
+				font-size: 1.5rem;
+			}
+
+			.text-2 {
+				font-size: .8rem;
+			}
+		}
+	}
+}
