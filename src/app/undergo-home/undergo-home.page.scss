@@ -528,7 +528,7 @@ ion-header {
 							background-size: cover;
 							display: flex;
 							align-items: center;
-							justify-content: space-around;
+							justify-content: space-between;
 							text-decoration: none;
 							position: relative;
 							padding: 0 .5rem;
@@ -545,11 +545,14 @@ ion-header {
 						 }
 
 						.btn-primary p {
-							font-size: 1.75rem;
+							font-size: 2.158rem;
 							color: #000;
 							text-transform: uppercase;
 							text-align: center;
-							font-family: 'Gliker Expanded';
+							font-family: 'FuturaPT';
+							line-height: 0.87em;
+							letter-spacing: 0.083em;
+							padding-left: 1rem;
 						}
 					}
 				}
@@ -623,7 +626,7 @@ ion-header {
 						}
 						.button-container {
 							.btn-primary p {
-								font-size: calc(1.75rem * .75);
+								font-size: calc(2.158rem * .9);
 							}
 						}
 					}
