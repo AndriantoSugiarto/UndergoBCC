@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'undergo',
     loadChildren: () => import('./undergo-home/undergo-home.module').then( m => m.UndergoHomePageModule)
+  },  {
+    path: 'coming-soon',
+    loadChildren: () => import('./coming-soon/coming-soon.module').then( m => m.ComingSoonPageModule)
   },
+
 ];
 
 @NgModule({
