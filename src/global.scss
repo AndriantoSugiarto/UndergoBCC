@@ -129,6 +129,20 @@
 	src: url("assets/fonts/retropix.otf") format("opentype");
 }
 
+@font-face {
+	font-family: "Futura";
+	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Futura";
+	src: url("assets/fonts/Futura/Futura\ Bold\ font.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
 @each $filename, $style, $weight in ("Thin", normal, 100), ("ThinItalic", italic, 100), ("ExtraLight", normal, 200),
 	("ExtraLightItalic", italic, 200), ("Light", normal, 300), ("LightItalic", italic, 300), ("Regular", normal, 400),
 	("Italic", italic, 400), ("Medium", normal, 500), ("MediumItalic", italic, 500), ("SemiBold", normal, 600),
