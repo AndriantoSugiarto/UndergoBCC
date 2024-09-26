@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1727337508829,
+  "timestamp": 1727341771504,
   "index": "https://undergocc.eccbridge.my.id/index.html",
   "assetGroups": [
     {
@@ -41,7 +41,7 @@
         "https://undergocc.eccbridge.my.id/5712.afc12e983abf3d42.js",
         "https://undergocc.eccbridge.my.id/5887.57fcd969e650034c.js",
         "https://undergocc.eccbridge.my.id/5949.8593700d96dfce2f.js",
-        "https://undergocc.eccbridge.my.id/5975.6b0c3f67b5c80bc3.js",
+        "https://undergocc.eccbridge.my.id/5975.2f319c93b5daf518.js",
         "https://undergocc.eccbridge.my.id/6024.e329b7f030e80d9d.js",
         "https://undergocc.eccbridge.my.id/6433.50b826c2eda28648.js",
         "https://undergocc.eccbridge.my.id/6521.9f540f33ba3f82a6.js",
@@ -75,7 +75,7 @@
         "https://undergocc.eccbridge.my.id/polyfills-core-js.9b17e8c75eeccf74.js",
         "https://undergocc.eccbridge.my.id/polyfills-dom.bf542500b6fca113.js",
         "https://undergocc.eccbridge.my.id/polyfills.45b15749fa958a1d.js",
-        "https://undergocc.eccbridge.my.id/runtime.539e01ccdaa2c0d5.js",
+        "https://undergocc.eccbridge.my.id/runtime.d1d8cba962b268ce.js",
         "https://undergocc.eccbridge.my.id/styles.036185f6be6bc73e.css"
       ],
       "patterns": []
@@ -1633,7 +1633,7 @@
     "https://undergocc.eccbridge.my.id/5712.afc12e983abf3d42.js": "aa40d8fe7586459c4515c00e315dc86e6b74ceb4",
     "https://undergocc.eccbridge.my.id/5887.57fcd969e650034c.js": "7e49cab1b6264a437c7469d482159b2689a6f7b3",
     "https://undergocc.eccbridge.my.id/5949.8593700d96dfce2f.js": "3c7899e73c8abf95ba4b21a0b02561e87f35fb6e",
-    "https://undergocc.eccbridge.my.id/5975.6b0c3f67b5c80bc3.js": "6dc6cb8511c458b66ece40eb8924dfcc4e4779bf",
+    "https://undergocc.eccbridge.my.id/5975.2f319c93b5daf518.js": "e17f6d707aa1943c280336aca6cb16cdbc28dc29",
     "https://undergocc.eccbridge.my.id/6024.e329b7f030e80d9d.js": "db392e0a2fb63c0e5d66f247c9d2041d67d8ff24",
     "https://undergocc.eccbridge.my.id/6433.50b826c2eda28648.js": "0fd9f448d288e80dc5c082c445252c932d4861a8",
     "https://undergocc.eccbridge.my.id/6521.9f540f33ba3f82a6.js": "57e27989ec547d8012704f7ae77343c01455799f",
@@ -1807,7 +1807,7 @@
     "https://undergocc.eccbridge.my.id/ecc-performing-art.7ef075861bd20581.webp": "66fbf7cd7abf713e880111e4753ce9d1965cc992",
     "https://undergocc.eccbridge.my.id/efferct-page1.e7926b1bb3079634.svg": "b6d482eb55753cd844c47947ba46690a73fa690e",
     "https://undergocc.eccbridge.my.id/ello.e44f6ca12a77bbec.webp": "8df21b67a58892d07f1a996ccb93146137bfc467",
-    "https://undergocc.eccbridge.my.id/index.html": "9b38bb1d3bf57a9be49cab1b690b3e226ec3647e",
+    "https://undergocc.eccbridge.my.id/index.html": "cfd3536374e06f9fe2f607e14fd60a440a0027c3",
     "https://undergocc.eccbridge.my.id/main.34125a1f8a7beeef.js": "4289578665a8cd34881983fb389ca8c2d7be9188",
     "https://undergocc.eccbridge.my.id/nicky.f9d2ce30e7efd3d1.webp": "745fd4c8bc173d8b468d5224b7cff4a548a80943",
     "https://undergocc.eccbridge.my.id/polyfills-core-js.9b17e8c75eeccf74.js": "79c38229b37c1b018dc0427b03319da272d1c3bf",
@@ -1817,7 +1817,7 @@
     "https://undergocc.eccbridge.my.id/ps-jefri-thresna.deac6b1a68a00500.webp": "c60fce5bb2553396b0b3c834a763b611af2b1b8b",
     "https://undergocc.eccbridge.my.id/ps-winston-y.535c9ddc947b49f4.webp": "2a7508124f21d4f4d9e8678e651c1e42d7e6ae33",
     "https://undergocc.eccbridge.my.id/retropix.a28fd08993349d8a.otf": "1161e02e5646cda444a380594220c4caa4486069",
-    "https://undergocc.eccbridge.my.id/runtime.539e01ccdaa2c0d5.js": "96d6b187a1b4a7ef0202060fb11324c2a5b35351",
+    "https://undergocc.eccbridge.my.id/runtime.d1d8cba962b268ce.js": "4d8d27fb23a9a52b397a26d414c745f5ec1df618",
     "https://undergocc.eccbridge.my.id/section-3.ac32a3d7dc74cea6.jpg": "81fa4f11d1b05a896aa0523e5f18fe6925a61d1f",
     "https://undergocc.eccbridge.my.id/shape-line-up.c4af379db08e97f7.svg": "660a758869d8bdb27a4441516b6b6da917c285b8",
     "https://undergocc.eccbridge.my.id/styles.036185f6be6bc73e.css": "de5b1d0bacf0d608cc6a816f9b84e9e9c842173d",
