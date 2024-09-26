@@ -6,9 +6,6 @@
 	background-position: center;
 	background-size: cover;
 	text-align: center;
-	// -webkit-box-shadow: inset 0 0 300px #000000;
-	// -moz-box-shadow: inset 0 0 300px #000000;
-	// box-shadow: inset 0 0 300px #000000;
 
 
 	h2 {
@@ -32,7 +29,8 @@
 		padding-top: .5rem;
 
 		text-transform: uppercase;
-		font-family: 'Gliker Expanded';
+		font-family: 'Futura';
+		font-weight: 800;
 	}
 }
 
@@ -108,12 +106,13 @@
  	}
 
 	.learn-more p {
-		font-size: 1.9rem;
+		font-size: 2.5rem;
 		color: #fff;
 		text-transform: uppercase;
 		text-align: left;
 		padding-left: 1.5rem;
-		font-family: 'Gliker Expanded';
+		font-family: 'Futura';
+		font-weight: 800;
 	}
 
 	.arrow-svg {
