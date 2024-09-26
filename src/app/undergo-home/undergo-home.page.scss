@@ -502,7 +502,7 @@ ion-header {
 						text-transform: uppercase;
 						letter-spacing: 0.083em;
 						text-shadow: 0.08838835em 0.08838835em 0em rgba(0, 0, 0, 0.570000);
-						margin-bottom: 6rem;
+						margin-bottom: 5rem;
 					}
 
 					p {
@@ -569,7 +569,8 @@ ion-header {
 						width: 90%;
 
 						h3 {
-							font-size: 40px;
+							margin-top: 3rem;
+							font-size: 2.8rem;
 						}
 
 						p {
@@ -602,6 +603,7 @@ ion-header {
 						position: relative;
 
 						h3 {
+							margin-top: 0;
 							width: 100%;
 							font-size: 25px;
 							margin-bottom: 1rem;
