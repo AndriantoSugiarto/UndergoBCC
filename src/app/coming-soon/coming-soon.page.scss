@@ -35,6 +35,17 @@ ion-content::part(background) {
             background-clip: text;
 			-webkit-text-fill-color: transparent;
 			margin-top: 2rem;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 768px) {
+			.undergo-logo {
+				width: 80vw;
+			}
+			.coming-soon-text {
+				font-size: 3.5rem;
+				width: 100%;
+			}
 		}
 	}
 }
