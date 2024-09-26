@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { IonicModule } from '@ionic/angular';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -14,6 +15,7 @@ import { IonicModule } from '@ionic/angular';
   imports: [
     CommonModule,
 	IonicModule,
+	RouterModule
   ],
   exports: [
 	NavbarComponent,
