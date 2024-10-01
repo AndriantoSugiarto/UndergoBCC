@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  	<app-navbar></app-navbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<div id="container">
+		<div class="about-container">
+			<h1 class="title">{{ title }}</h1>
+			<p class="description" [innerHTML]="description | safehtml"></p>
+			
+			<video id="video-undergo" controls>
+				<source src="{{ video }}" type="video/mp4">
+			</video>
+		</div>
+	</div>
+</ion-content>

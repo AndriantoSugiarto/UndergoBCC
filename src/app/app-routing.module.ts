@@ -13,11 +13,30 @@ const routes: Routes = [
   },
   {
     path: 'undergo',
-    loadChildren: () => import('./undergo-home/undergo-home.module').then( m => m.UndergoHomePageModule)
-  },  {
+    children: [
+		{
+			path: '',
+			loadChildren: () => import('./undergo-home/undergo-home.module').then( m => m.UndergoHomePageModule)
+		},
+		{
+			path: 'about',
+			loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
+		},
+		{
+			path: 'experience',
+			loadChildren: () => import('./experience/experience.module').then( m => m.ExperiencePageModule)
+		},
+		{
+			path: 'faq',
+			loadChildren: () => import('./faq/faq.module').then( m => m.FaqPageModule)
+		},
+	]
+  },
+  {
     path: 'coming-soon',
     loadChildren: () => import('./coming-soon/coming-soon.module').then( m => m.ComingSoonPageModule)
   },
+
 
 ];
 
