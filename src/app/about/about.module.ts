@@ -8,7 +8,6 @@ import { AboutPageRoutingModule } from './about-routing.module';
 
 import { AboutPage } from './about.page';
 import { TemplatesModule } from '../templates/templates.module';
-import { SafeModule } from '../@pipes/safe.module';
 
 @NgModule({
   imports: [
