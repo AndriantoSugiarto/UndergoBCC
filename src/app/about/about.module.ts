@@ -16,8 +16,7 @@ import { SafeModule } from '../@pipes/safe.module';
     FormsModule,
     IonicModule,
     AboutPageRoutingModule,
-	TemplatesModule,
-	SafeModule
+	TemplatesModule
   ],
   declarations: [AboutPage]
 })
