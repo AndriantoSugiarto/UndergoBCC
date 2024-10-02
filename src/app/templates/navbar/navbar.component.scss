@@ -54,14 +54,14 @@
 			justify-content: space-between;
 			align-items: center;
 			.nav-list {
-				font-family: "Retropix";
+				font-family: "Futura";
 				color: #000000;
 				text-decoration: underline;
 				line-height: 1.11812276em;
 				text-transform: uppercase;
 				letter-spacing: 0.083em;
 				padding-right: 1rem;
-				font-size: 1.5rem;
+				font-size: 2rem;
 			}
 		}
 	}
@@ -78,6 +78,10 @@
 				justify-content: space-around;
 				align-items: center;
 				width: 100%;
+
+				.link-home {
+					margin-right: 0;
+				}
 
 				.title {
 					.undergo-title {
@@ -226,3 +230,4 @@
 
 	}
 }
+

@@ -1,40 +1,46 @@
-ion-header {
-	background-color: rgb(198, 226, 219, 0.85);
-	border-bottom: 2px solid #8f8f8f;
-}
-
-// ion-content::part(background) {
-// 	background: rgb(198, 226, 219) center center no-repeat scroll url('../../assets/images/background-01.webp');
-// 	background-size: cover;
-// }
-
 .undergo-container {
 	width: 100%;
-	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 
 	.section-1 {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 		flex-direction: column;
-		width: 100%;
+		width: 90vw;
 		padding-top: 8em;
+		background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, .5);
+		background-blend-mode: lighten;
+		border-radius: 2rem;
+		margin: 1rem 0;
 
 		.image-bg {
 			position: absolute;
-			width: 100%;
+			width: 90vw;
 			height: 100%;
+			border-radius: 2rem;
 
 			.img {
 				position: absolute;
-				width: 100%;
+				width: 90vw;
 				height: 100%;
+				border-radius: 2rem;
 			}
 
 			.img-2 {
 				position: absolute;
 				width: 100%;
-				height: 60%;
+				height: 50%;
+				border-bottom-left-radius: 2rem;
+				border-bottom-right-radius: 2rem;
 			}
 
 			.background {
@@ -43,20 +49,13 @@ ion-header {
 				background-repeat: no-repeat;
 				background-size: contain;
 				background-position: bottom;
-			}
-
-			.effect {
-				z-index: 3;
-				height: 100%;
-				background-image: url('../../assets/efferct-page1.svg');
-				background-repeat: no-repeat;
-				background-size: cover;
+				opacity: .1;
 			}
 
 			.gif-animation {
 				z-index: 4;
 				right: 0;
-				top: 40%;
+				top: 50%;
 				background-image: url('../../assets/images/airplane-animation.gif');
 				background-repeat: no-repeat;
 				background-size: contain;
@@ -69,7 +68,7 @@ ion-header {
 		}
 
 		.date-text {
-			color: #000000;
+			color: #FFFFFF;
 			font-family: "FuturaPT";
 			font-weight: 800;
 			font-size: 7.3125rem;
@@ -81,7 +80,7 @@ ion-header {
 		}
 
 		.place-text {
-			color: #000000;
+			color: #FFFFFF;
 			font-family: "FuturaPT";
 			font-weight: bold;
 			font-size: 2.9rem;
@@ -97,40 +96,39 @@ ion-header {
 			display: flex;
 			position: relative;
 			margin-top: 1rem;
+			padding-bottom: 2em;
 			.btn {
 				width: 604px;
-				height: 172px;
-				border-radius: 86px;
-				background-image: url('../../assets/button-shape.svg');
-				background-size: cover;
-				display: flex;
-				align-items: center;
-				justify-content: space-evenly;
+				height: 232px;
+				mask: url('../../assets/background-ticket.svg');
+				background-color: rgba(0,0,0, .7);
+				background-blend-mode: darken;
 				text-decoration: none;
-				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				box-shadow: inset .15rem .15rem 1rem rgba(0,0,0, 1);
 
 				.circle-arrow {
-					background-image: url('../../assets/circle-arrow.svg');
+					mask: url('../../assets/icon/passport-ticket-icon.svg');
+					background-color: #FFFFFF;
 					background-size: cover;
-					position: relative;
-					right: 0;
-					width: 104px;
-					height: 105px;
-					margin-bottom: 1.5rem;
+					width: 125px;
+					height: 100px;
+					margin-left: 1rem;
 				}
-			 }
+			}
 
 			.btn-primary p {
 				font-size: 3.3rem;
 				font-weight: 800;
-				color: #000;
+				color: #fff;
 				text-transform: uppercase;
 				text-align: left;
-				padding-bottom: 1.5rem;
 				font-family: 'FuturaPT';
 				line-height: 0.87em;
 				letter-spacing: -0.041em;
-				padding-left: 1rem;
+				text-shadow: 0.06629126em 0.06629126em 0em rgba(255, 255, 255, 0.4);
 			}
 		}
 
@@ -223,20 +221,30 @@ ion-header {
 	}
 
 	.section-2 {
-		width: 100%;
+		width: 90vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+		background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.5);
+		background-blend-mode: lighten;
+		border-radius: 2rem;
+		margin-bottom: 1rem;
+
 		.section-text {
 			font-family: 'FuturaPT';
 			font-weight: 800;
 			font-size: 6rem;
-			margin-top: 6rem;
+			margin-top: 3rem;
 			line-height: 0.87em;
 			letter-spacing: 0.083em;
 			text-transform: uppercase;
-			text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.400000);
+			text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.4);
 		}
 
 		.line-up {
@@ -453,15 +461,18 @@ ion-header {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		width: 100%;
+		width: 90vw;
 		height: auto;
 		padding: 2rem 0;
-		background-image: url('../../assets/images/section-3.jpg');
+		background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-color: rgb(198, 226, 219, .8);
+		background-color: rgba(0, 0, 0, 0.5);
 		background-blend-mode: lighten;
+		border-radius: 2rem;
+		margin-bottom: 1rem;
 
 		.undergo-about-container {
 			display: flex;
@@ -473,13 +484,13 @@ ion-header {
 			.about-container {
 				background-color: rgb(0, 0, 0);
 				background-blend-mode: lighten;
-				width: 67%;
+				width: 75vw;
 				height: 491px;
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				border-radius: 20px;
-				border: 6px solid #fdc830;
+				border-radius: 1.25rem;
+				border: .5rem solid rgba(0, 0, 0, 0.45);
 				overflow: hidden;
 
 				#background-video {
@@ -488,7 +499,7 @@ ion-header {
 					position: relative;
 					z-index: 1;
 					opacity: .44;
-					border-radius: 13px;
+					border-radius: .75rem;
 				}
 
 				.text-container {
@@ -564,7 +575,7 @@ ion-header {
 			}
 		}
 
-		@media screen and (max-width: 1400px) {
+		@media screen and (max-width: 1366px) {
 			.undergo-about-container {
 				.about-container{
 					width: 90%;

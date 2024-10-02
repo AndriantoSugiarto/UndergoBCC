@@ -37,11 +37,6 @@
 @import "@ionic/angular/css/palettes/dark.system.css";
 
 @font-face {
-	font-family: "Retropix";
-	src: url("assets/fonts/retropix.otf") format("opentype");
-}
-
-@font-face {
 	font-family: "Futura";
 	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
 	font-weight: 800;
@@ -90,6 +85,26 @@
 	}
 }
 
-body {
-	--ion-background-color: rgb(198, 226, 219);
+@font-face {
+	font-family: "Futura";
+	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Futura";
+	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+// body {
+// 	// --ion-background-color: rgb(198, 226, 219);
+// 	background-image: url('assets/images/background-01.webp');
+// }
+
+ion-content::part(background) {
+	background: rgb(198, 226, 219) center center no-repeat scroll url('assets/images/background-01.webp');
+	background-size: cover;
 }
