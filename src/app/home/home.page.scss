@@ -76,11 +76,11 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	.btn {
-		width: 380px;
-		height: 85px;
-		border-radius: 42.5px;
-		background-color: #234dff;
-		box-shadow: 0 0 0 1px rgba(57,76,96,.15);
+		width: 420px;
+		height: 110px;
+		border-radius: 55px;
+		background-color: rgba(0,0,0, .75);
+		box-shadow: inset .25rem .5rem .5rem rgba(83, 83, 83, 0.5);
 		display: flex;
 		align-items: center;
 
@@ -88,19 +88,19 @@
 			display: flex;
 			position: absolute;
 			right: 1rem;
-			width: 52px;
-			height: 52px;
+			width: 4.5rem;
+			height: 4.5rem;
 			border-radius: 50%;
-			background-color: rgb(183,84,220);
+			background-color: rgba(255,255,255, 1);
 
 			.arrow {
 				clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
-				background-color: #234dff;
-				width: 34px;
-				height: 34px;
+				background-color: rgba(0,0,0, .75);
+				width: 3.5rem;
+				height: 3.5rem;
 				position: absolute;
-				right: 9px;
-				top: 9px;
+				right: .4rem;
+				top: .55rem;
 			}
 		}
  	}
