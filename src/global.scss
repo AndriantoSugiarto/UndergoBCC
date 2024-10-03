@@ -34,7 +34,7 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+// @import "@ionic/angular/css/palettes/dark.system.css";
 
 @font-face {
 	font-family: "Futura";
@@ -104,7 +104,16 @@
 // 	background-image: url('assets/images/background-01.webp');
 // }
 
+ion-header {
+	background-image: url('assets/images/background-01.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(0,0,0,.1);
+	background-blend-mode: darken;
+}
+
 ion-content::part(background) {
-	background: rgb(198, 226, 219) center center no-repeat scroll url('assets/images/background-01.webp');
+	background: transparent center center no-repeat scroll url('assets/images/background-01.webp');
 	background-size: cover;
 }
