@@ -117,3 +117,8 @@ ion-content::part(background) {
 	background: transparent center center no-repeat scroll url('assets/images/background-01.webp');
 	background-size: cover;
 }
+
+:root {
+	--ion-text-color: #ffffff;
+    --ion-text-color-rgb: 255, 255, 255;
+}
