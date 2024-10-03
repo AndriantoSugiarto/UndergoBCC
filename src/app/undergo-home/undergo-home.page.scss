@@ -489,7 +489,7 @@
 			padding: 2rem 0;
 
 			.about-container {
-				background-color: rgb(0, 0, 0);
+				background-color: rgba(0, 0, 0, 0.5);
 				background-blend-mode: lighten;
 				width: 75vw;
 				height: 491px;
@@ -497,7 +497,7 @@
 				justify-content: center;
 				align-items: center;
 				border-radius: 1.25rem;
-				border: .5rem solid rgba(0, 0, 0, 0.45);
+				border: .5rem solid rgba(0, 0, 0, 0.35);
 				overflow: hidden;
 
 				#background-video {
@@ -623,6 +623,11 @@
 					display: flex;
 					flex-direction: column;
 					height: auto;
+					background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
 
 					#background-video {
 						height: 245.5px;
@@ -647,6 +652,12 @@
 							width: 100%;
 							font-size: 12pt;
 						}
+
+						.button-container {
+							.btn-primary p {
+								width: 44vw;
+							}
+						}
 					}
 				}
 			}
@@ -662,6 +673,7 @@
 						}
 						.button-container {
 							.btn-primary p {
+								width: 50vw;
 								font-size: calc(2.489rem * .8);
 								padding-left: .5rem;
 							}
