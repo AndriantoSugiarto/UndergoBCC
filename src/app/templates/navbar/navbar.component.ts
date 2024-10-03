@@ -23,6 +23,5 @@ export class NavbarComponent  implements OnInit {
 		icon2.classList.toggle('c');
 		icon3.classList.toggle('b');
 		nav.classList.toggle('show');
-		nav.classList.toggle('hide');
 	}
 }
