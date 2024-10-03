@@ -23,7 +23,7 @@
 		flex-direction: column;
 
 		.title {
-			font-size: 5rem;
+			font-size: 7vw;
 			font-family: "Futura";
 			font-weight: 800;
 			text-transform: uppercase;
@@ -33,7 +33,7 @@
 		.description {
 			text-transform: uppercase;
 			text-align: center;
-			font-size: 2rem;
+			font-size: 3vw;
 			font-family: "Futura";
 
 		}
@@ -41,6 +41,7 @@
 		#video-undergo {
 			border: .5rem solid #000;
 			border-radius: 2rem;
+			width: 80vw;
 		}
 	}
 }
