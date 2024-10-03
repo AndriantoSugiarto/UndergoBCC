@@ -7,7 +7,7 @@ import { Constants } from '../classes/constants';
   styleUrls: ['./undergo-home.page.scss'],
 })
 export class UndergoHomePage implements OnInit {
-	undergo_2023_url_video: string = Constants.BASE_API_URL + 'assets/images/undergo-global-2023.mp4';
+	undergo_2023_url_video: string = Constants.BASE_API_URL + 'assets/videos/undergo-recap.mp4';
   	constructor() { }
 
   	ngOnInit() {}
