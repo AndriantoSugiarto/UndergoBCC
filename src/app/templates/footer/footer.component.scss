@@ -4,7 +4,7 @@
 	align-items: center;
 	width: 100%;
 	flex-direction: column;
-
+	margin: 4rem 0;
 	.icon-airplane {
 		img {
 			width: 4.5rem;
@@ -16,7 +16,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		.text {
-			font-size: 32px;
+			font-size: 1.83rem;
 			font-family: 'Poppins';
 			font-weight: 800;
 			margin: 0;
@@ -27,7 +27,7 @@
 
 		.text-2 {
 			font-family: "Poppins";
-			font-size: 18.667px;
+			font-size: 1.069rem;
 			font-weight: 800;
 			line-height: 26px;
 			letter-spacing: 0.264em;
@@ -39,9 +39,9 @@
 	.logo-container {
 		width: 100%;
 		display: flex;
-		justify-content: center;
+		justify-content: space-evenly;
 		align-items: center;
-		margin-top: 1rem;
+		margin-top: 4rem;
 
 		.logo-ecc {
 			width: 64px;

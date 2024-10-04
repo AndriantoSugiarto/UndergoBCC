@@ -12,14 +12,15 @@
 		flex-direction: column;
 		width: 90vw;
 		padding-top: 8em;
-		background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-color: rgba(0, 0, 0, .5);
-		background-blend-mode: lighten;
-		border-radius: 2rem;
+		background-image: url('../../assets/images/background-04.webp');
+		// background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
+		// -webkit-background-size: cover;
+		// -moz-background-size: cover;
+		// -o-background-size: cover;
+		// background-size: cover;
+		// background-color: rgba(255, 255, 255, .5);
+		// background-blend-mode: lighten;
+		// border-radius: 2rem;
 		margin: 1rem 0;
 
 		.image-bg {
@@ -49,18 +50,18 @@
 				background-repeat: no-repeat;
 				background-size: contain;
 				background-position: bottom;
-				opacity: .1;
+				// opacity: .1;
 			}
+		}
 
-			.gif-animation {
-				z-index: 4;
-				right: 0;
-				top: 50%;
-				background-image: url('../../assets/images/airplane-animation.gif');
-				background-repeat: no-repeat;
-				background-size: contain;
-				background-position: right;
-			}
+		.image-logo {
+			width: 36.5vw;
+			margin: 2rem;
+		}
+
+		.barcode {
+			margin-top: 2rem;
+			width: 28.5vw;
 		}
 
 		.date-text, .place-text, .button-container {
@@ -68,22 +69,40 @@
 		}
 
 		.date-text {
-			color: #FFFFFF;
-			font-family: "FuturaPT";
+			color: var(--ion-text-color);
+			font-family: "Futura";
 			font-weight: 800;
-			font-size: 7.3125rem;
-			line-height: 6.125rem;
-			letter-spacing: 0.134em;
 			text-transform: uppercase;
 			text-align: center;
 			margin: 0rem 0;
+
+			.text-1 {
+				margin: 2rem 0 1rem 0;
+				font-size: 4.371rem;
+				line-height: 0.737em;
+				letter-spacing: 0.438em;
+			}
+
+			.text-2 {
+				font-size: 2.575rem;
+				line-height: 1.393em;
+				letter-spacing: 0.083em;
+				margin: 0 0 1rem 0;
+			}
+
+			.text-3 {
+				font-size: 2.191rem;
+				line-height: 1.37em;
+				letter-spacing: 0.083em;
+				margin: 0 0 1rem 0;
+			}
 		}
 
 		.place-text {
-			color: #FFFFFF;
-			font-family: "FuturaPT";
-			font-weight: bold;
-			font-size: 2.9rem;
+			color: var(--ion-text-color);
+			font-family: "Futura";
+			font-weight: 700;
+			font-size: 2.41rem;
 			text-transform: uppercase;
 			text-align: center;
 			margin: 0rem 0;
@@ -98,37 +117,55 @@
 			margin-top: 1rem;
 			padding-bottom: 2em;
 			.btn {
-				width: 604px;
-				height: 232px;
-				mask: url('../../assets/background-ticket.svg');
-				background-color: rgba(0,0,0, .7);
-				background-blend-mode: darken;
-				text-decoration: none;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				box-shadow: inset .15rem .15rem 1rem rgba(0,0,0, 1);
+				width: 620px;
+				height: 154px;
+				background-image: linear-gradient(to right, #ef96f8,#cad4f7, #9af4fc);
+				background-size: contain;
+				background-repeat: no-repeat;
+				box-shadow: .25rem .25rem 1rem .15rem rgba(0, 0, 0, .5);
 
-				.circle-arrow {
-					mask: url('../../assets/icon/passport-ticket-icon.svg');
-					background-color: #FFFFFF;
-					background-size: cover;
-					width: 125px;
-					height: 100px;
-					margin-left: 1rem;
+				border-radius: 77px;
+				background-size: cover;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				text-decoration: none;
+				position: relative;
+				padding: 0 .5rem;
+
+				.circle {
+					display: flex;
+					position: absolute;
+					right: 1rem;
+					width: 7.5rem;
+					height: 7.5rem;
+					border-radius: 50%;
+					background-color: #eb6aa7;
+
+					.arrow {
+						background-image: url(../../assets/arrow-up.svg);
+						background-repeat: no-repeat;
+						background-size: contain;
+						transform: rotate(90deg);
+						width: 5.3125rem;
+						height: 5.5rem;
+						position: absolute;
+						right: 1.1rem;
+						top: 1rem;
+					}
 				}
 			}
 
 			.btn-primary p {
-				font-size: 3.3rem;
+				font-size: 3.886rem;
 				font-weight: 800;
-				color: #fff;
+				color: var(--ion-text-color);
 				text-transform: uppercase;
 				text-align: left;
-				font-family: 'FuturaPT';
+				font-family: 'Futura';
 				line-height: 0.87em;
 				letter-spacing: -0.041em;
-				text-shadow: 0.06629126em 0.06629126em 0em rgba(255, 255, 255, 0.4);
+				padding-left: 1.5rem;
 			}
 		}
 
@@ -237,36 +274,44 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-color: rgba(0, 0, 0, 0.5);
-		background-blend-mode: lighten;
+		background-color: rgba(161, 220, 237, 0.41);
 		border-radius: 2rem;
 		margin-bottom: 1rem;
 
 		.section-text {
-			font-family: 'FuturaPT';
-			font-weight: 800;
-			font-size: 6rem;
+			background-image: linear-gradient(to right, #ffa9d8, #ff90e3, #fe78e5, #ff58ee, #fd2cfb);
+			background-size: contain;
+			background-repeat: no-repeat;
+			width: 564px;
+			height: 138px;
+			border-radius: calc(138px / 2);
 			margin-top: 3rem;
-			line-height: 0.87em;
-			letter-spacing: 0.083em;
-			text-transform: uppercase;
-			text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.4);
+			margin-bottom: 3rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-shadow: .5rem .5rem 1rem .25rem rgba(0, 0, 0, .5);
+			.text {
+				color: rgba(0, 0, 0, 1);
+				font-family: 'FuturaPT';
+				font-weight: 800;
+				font-size: 4.9rem;
+				line-height: 0.861em;
+				letter-spacing: 0.083em;
+				text-transform: uppercase;
+				margin: 0;
+			}
 		}
 
 		.line-up {
 			width: 100%;
 			display: grid;
-			grid-template-columns: repeat(4, minmax(280px, 1fr));
-			grid-template-rows: repeat(2, minmax(330px, 1fr));
-			gap: 1.5rem 0;
+			grid-template-columns: repeat(2, minmax(570px, 1fr));
+			grid-template-rows: repeat(4, minmax(510px, 1fr));
+			gap: 3rem 0;
 			justify-content: center;
 			align-items: center;
-			padding: 2rem 10rem;
+			padding: 4rem;
 
 			.speaker {
 				justify-self: center;
@@ -274,138 +319,89 @@
 				display: flex;
 				justify-content: center;
 				align-items: flex-start;
-				width: 280px;
-				height: 330px;
+				width: 600px;
+				height: 510px;
 				.speaker-img {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
 					width: 100%;
-					.shape-1::before, .shape-2::before, .shape-3::before, .shape-4::before,
-					.shape-5::before, .shape-6::before, .shape-7::before, .shape-8::before {
-						content: url('../../assets/shape-line-up.svg');
-						width: 270px;
-						height: 270px;
-						position: absolute;
-						z-index: 0;
-					}
 
-					.shape-1, .shape-2, .shape-3, .shape-4, .shape-5, .shape-6, .shape-7, .shape-8{
-						width: 270px;
-						height: 270px;
-					}
+					.image-container {
+						width: 371px;
+						height: 371px;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
 
-					.shape-1::after {
-						content: '';
-						background-image:  url('../../assets/images/ps-jefri-thresna.webp');
-						background-position: 100% 65%;
-						background-size: 220%;
-						border-radius: 50%;
-						background-repeat: no-repeat;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.bg-image {
+							width: 371px;
+							height: 371px;
+							position: absolute;
+							z-index: 0;
+							object-fit: contain;
+						}
 
-					.shape-2::after {
-						content: '';
-						background-image:  url('../../assets/images/ps-winston-y.webp');
-						background-position: 100% 97%;
-						background-repeat: no-repeat;
-						background-size: cover;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.photo {
+							width: 358px;
+							height: 358px;
+							object-fit: cover;
+							object-position: 100% 65%;
+							mask-image: url('../../assets/arc-circle-2.svg');
+							mask-size: cover;
+							position: absolute;
+							z-index: 1;
+						}
 
-					.shape-3::after {
-						content: '';
-						background-image:  url('../../assets/images/ps-jansen-bs.webp');
-						background-position: 100% 90%;
-						background-repeat: no-repeat;
-						background-size: cover;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.photo-1 {
+							background-position: 97% 67%;
+							background-size: 220%;
+							background-repeat: no-repeat;
+						}
 
-					.shape-4::after {
-						content: '';
-						background-image:  url('../../assets/images/the-youth-pastors.webp');
-						background-position: center;
-						background-repeat: no-repeat;
-						background-size: cover;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.photo-2 {
+							background-position: 100% 97%;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
 
-					.shape-5::after {
-						content: '';
-						background-image:  url('../../assets/images/ello.webp');
-						background-position: 100% 60%;
-						background-repeat: no-repeat;
-						background-size: cover;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.photo-3 {
+							background-position: 100% 90%;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
 
-					.shape-6::after {
-						content: '';
-						background-image:  url('../../assets/images/ecc-performing-art.webp');
-						background-position: 54% 46%;
-						background-repeat: no-repeat;
-						background-size: 150%;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.photo-4 {
+							background-position: center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
 
-					.shape-7::after {
-						content: '';
-						background-image:  url('../../assets/images/bcc-crew.webp');
-						background-position: 20% 82%;
-						background-repeat: no-repeat;
-						background-size: 115%;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
-					}
+						.photo-5 {
+							background-position: 100% 60%;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
 
-					.shape-8::after {
-						content: '';
-						background-image:  url('../../assets/images/flo.webp');
-						background-position: 50% 73%;
-						background-repeat: no-repeat;
-						background-size: 150%;
-						border-radius: 50%;
-						width: 218px;
-						height: 218px;
-						position: absolute;
-						z-index: 1;
-						transform: translate(12%,12%);
+						.photo-6 {
+							background-position: 54% 46%;
+							background-repeat: no-repeat;
+							background-size: 150%;
+						}
+
+						.photo-7 {
+							background-position: 20% 82%;
+							background-repeat: no-repeat;
+							background-size: 115%;
+						}
+
+						.photo-8 {
+							background-position: 50% 73%;
+							background-repeat: no-repeat;
+							background-size: 150%;
+						}
 					}
 
 					.text-container {
@@ -413,13 +409,22 @@
 						margin-top: 1rem;
 						width: 100%;
 						p {
-							font-family: "FuturaPT";
-							font-size: 1.875rem;
-							line-height: 0.87em;
-							letter-spacing: 0.083em;
+							font-family: "Futura";
 							margin: 0;
-							text-shadow: 0.08838835em 0.08838835em 0em rgba(0, 0, 0, 0.570000);
 							text-transform: uppercase;
+							color:rgba(0, 0, 0, 1);
+							letter-spacing: 0.083em;
+						}
+
+						.name-1 {
+							font-size: 3.2rem;
+							line-height: 1.06em;
+							font-weight: 800;
+						}
+
+						.name-2 {
+							font-size: 2.269rem;
+							line-height: 1.065em;
 						}
 
 						.text-custom {
@@ -466,13 +471,13 @@
 		width: 90vw;
 		height: auto;
 		padding: 2rem 0;
-		background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-color: rgba(0, 0, 0, 0.5);
-		background-blend-mode: lighten;
+		// background-image: linear-gradient(30deg, rgba(173, 240, 240, .35), rgba(81,143, 232, .3), rgba(35,32,249, .25), rgba(253,98,154, .2), rgba(255,86,164, .15), rgba(135, 28, 255, .1), rgba(155, 252, 235, .05), rgba(153, 221, 169, .05));
+		// -webkit-background-size: cover;
+		// -moz-background-size: cover;
+		// -o-background-size: cover;
+		// background-size: cover;
+		// background-color: rgba(0, 0, 0, 0.5);
+		// background-blend-mode: lighten;
 		border-radius: 2rem;
 		margin-bottom: 1rem;
 
@@ -484,20 +489,21 @@
 			padding: 2rem 0;
 
 			.about-container {
-				background-color: rgba(0, 0, 0, 0.5);
-				background-blend-mode: lighten;
-				width: 75vw;
-				height: 491px;
+				background-color: rgba(0, 0, 0, 0.85);
+				background-blend-mode: darken;
+				width: 63vw;
+				height: 483px;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				border-radius: 1.25rem;
-				border: .5rem solid rgba(0, 0, 0, 0.35);
+				border: .5rem solid rgba(253,200,48, .44);
 				overflow: hidden;
 
 				#background-video {
 					width: 100%;
 					object-fit: cover;
+					object-position: 10%;
 					position: relative;
 					z-index: 1;
 					opacity: .44;
@@ -512,19 +518,20 @@
 					position: absolute;
 					z-index: 10;
 					h3 {
-						font-family: 'FuturaPT';
+						font-family: 'Futura';
 						font-weight: 800;
-						font-size: 3.2rem;
+						font-size: 3.075rem;
 						line-height: 0.84em;
 						text-align: center;
 						text-transform: uppercase;
 						letter-spacing: 0.083em;
 						text-shadow: 0.08838835em 0.08838835em 0em rgba(0, 0, 0, 0.570000);
-						margin-bottom: 5rem;
+						margin-top: 2rem;
+						margin-bottom: 8rem;
 					}
 
 					p {
-						font-family: 'FuturaPT';
+						font-family: 'Futura';
 						font-size: 1.45rem;
 						text-transform: uppercase;
 						line-height: 1.119em;
@@ -540,10 +547,13 @@
 						.btn {
 							width: 100%;
 							max-width: 420px;
-							height: 110px;
-							background-color: rgba(0, 0, 0, .75);
-							box-shadow: inset .25rem .5rem .5rem rgba(83, 83, 83, 0.5);
-							border-radius: 55px;
+							height: 102px;
+							background-image: linear-gradient(to right, #ef96f8,#cad4f7, #9af4fc);
+							background-size: contain;
+							background-repeat: no-repeat;
+							box-shadow: .25rem .25rem 1rem .15rem rgba(255, 255, 255, .5);
+
+							border-radius: 51px;
 							background-size: cover;
 							display: flex;
 							align-items: center;
@@ -559,29 +569,31 @@
 								width: 4.5rem;
 								height: 4.5rem;
 								border-radius: 50%;
-								background-color: rgba(255,255,255, 1);
+								background-color: #eb6aa7;
 
 								.arrow {
-									clip-path: polygon(0% 25%, 50% 25%, 50% 0%, 100% 50%, 50% 100%, 50% 75%, 0% 75%);
-									background-color: rgba(0,0,0, .75);
-									width: 3.5rem;
-									height: 3.5rem;
+									background-image: url(../../assets/arrow-up.svg);
+									background-repeat: no-repeat;
+									background-size: contain;
+									transform: rotate(90deg);
+									width: 2.3125rem;
+									height: 2.5rem;
 									position: absolute;
-									right: .4rem;
-									top: .55rem;
+									right: 1.1rem;
+									top: 1rem;
 								}
 							}
 						 }
 
 						.btn-primary p {
-							font-size: 2.489rem;
-							color: var(--ion-text-color);
+							font-size: 2.141rem;
+							color: #000;
 							text-transform: uppercase;
 							text-align: center;
 							font-family: 'FuturaPT';
 							line-height: 0.87em;
 							letter-spacing: 0.083em;
-							padding-left: 1rem;
+							padding-left: 2rem;
 						}
 					}
 				}

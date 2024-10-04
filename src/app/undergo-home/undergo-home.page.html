@@ -7,94 +7,41 @@
 	<div class="section-1">
 		<span class="image-bg">
 			<span class="img background"></span>
-			<span class="img-2 gif-animation"></span>
+			<!-- <span class="img-2 gif-animation"></span> -->
 		</span>
-		<p class="date-text">
-			<span class="text">october 19-20,</span><br/>
-			<span class="text">2024</span>
-		</p>
+		<span class="image-logo">
+			<img class="logo-undergo" src="{{logo_undergo_url}}" alt="logo-undergo">
+		</span>
+		<span class="barcode">
+			<img src="{{barcode_url}}" alt="barcode">
+		</span>
+		<span class="date-text">
+			<p class="text-1">.october.</p>
+			<p class="text-2">19-20/2024</p>
+			<p class="text-3">|</p>
+		</span>
 		<p class="place-text">
-			<span class="text-p">Wisma Els 59, Lembang</span><br/>
-			<span class="text-p">Bandung</span>
+			<span class="text-p">Wisma Els 59</span><br/>
+			<span class="text-p">Lembang Bandung</span>
 		</p>
 		<span class="button-container">
 			<a class="btn btn-primary" href="https://form.jotform.com/242691719211456" target="_blank">
-				<p>Book A Ticket</p> <span class="circle-arrow"></span>
+				<p>Book A Ticket</p> <span class="circle"><i class="arrow"></i></span>
 			</a>
 		</span>
 	</div>
 	<div class="section-2">
-		<span class="section-text">Line Up</span>
+		<span class="section-text"><p class="text">Line Up</p></span>
 		<div class="line-up">
-			<div class="speaker">
+			<div class="speaker" *ngFor="let speaker of speakers; index as i">
 				<span class="speaker-img">
-					<span class="shape-1">
+					<span class="image-container">
+						<img class="bg-image" src="{{speaker.bg_image}}" alt="background">
+						<span class="photo photo-{{i+1}}" [ngStyle]="{'background-image': 'url(' + speaker.photo + ')'}"></span>
 					</span>
 					<span class="text-container">
-						<p>Ps. Jefri <br/>Theresna</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-2">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">Ps. Winston <br/>Yehezkiel</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-3">
-					</span>
-					<span class="text-container">
-						<p>Ps. Jansen <br/>Silaban</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-4">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">The (Youth) <br/>Pastor</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-5">
-					</span>
-					<span class="text-container">
-						<p>marcello<br>nanlohi</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-6">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">ecc performing <br/>art</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-7">
-					</span>
-					<span class="text-container">
-						<p>bcc crew</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-8">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">ruang bicara <br/>with Flo tenesha</p>
+						<p class="name-1">{{ speaker.name }}</p>
+						<p [ngClass]="i==0 ? 'name-2' : 'name-1'">{{ speaker.name_2 }}</p>
 					</span>
 				</span>
 			</div>
