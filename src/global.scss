@@ -85,7 +85,7 @@
 	}
 }
 
-@each $filename, $style, $weight in (("Regular", normal, 400))
+@each $filename, $style, $weight in ("Regular", normal, 400), ("Medium", normal, 500), ("Bold", normal, 600)
 {
 	@font-face {
 		font-family: "Din Next LT Pro";
