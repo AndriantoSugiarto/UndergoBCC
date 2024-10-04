@@ -54,14 +54,20 @@
 			justify-content: space-between;
 			align-items: center;
 			.nav-list {
-				font-family: "Futura";
+				font-family: "Din Next LT Pro";
+				font-weight: 400;
 				color: #000000;
-				text-decoration: underline;
-				line-height: 1.11812276em;
+				text-decoration: none;
+				line-height: 1.116em;
 				text-transform: uppercase;
 				letter-spacing: 0.083em;
-				padding-right: 1rem;
-				font-size: 2rem;
+				padding-right: 2.5rem;
+				font-size: 1.5rem;
+			}
+
+			.icon-airplane {
+				width: 56px;
+				height: 56px;
 			}
 		}
 	}

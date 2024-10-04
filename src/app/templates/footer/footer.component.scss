@@ -5,6 +5,13 @@
 	width: 100%;
 	flex-direction: column;
 
+	.icon-airplane {
+		img {
+			width: 4.5rem;
+			height: 2rem;
+		}
+	}
+
 	.footer-text {
 		text-align: center;
 		text-transform: uppercase;

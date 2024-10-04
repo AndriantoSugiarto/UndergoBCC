@@ -85,6 +85,16 @@
 	}
 }
 
+@each $filename, $style, $weight in (("Regular", normal, 400))
+{
+	@font-face {
+		font-family: "Din Next LT Pro";
+		src: url("./assets/fonts/din-next-lt-pro/DINNextLTPro-#{$filename}.ttf") format("truetype");
+		font-style: $style;
+		font-weight: $weight;
+	}
+}
+
 @font-face {
 	font-family: "Futura";
 	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
@@ -105,16 +115,16 @@
 // }
 
 ion-header {
-	background-image: url('assets/images/background-01.webp');
+	background-image: linear-gradient(90deg, #ffa9f9, #fff7ad);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: rgba(0,0,0,.1);
-	background-blend-mode: darken;
+	// background-color: rgba(0,0,0,.1);
+	// background-blend-mode: darken;
 }
 
 ion-content::part(background) {
-	background: transparent center center no-repeat scroll url('assets/images/background-01.webp');
+	background: transparent center center no-repeat scroll url('assets/images/background-02.webp');
 	background-size: cover;
 }
 

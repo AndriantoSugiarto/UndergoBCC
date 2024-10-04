@@ -7,7 +7,7 @@ import { Constants } from 'src/app/classes/constants';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent  implements OnInit {
-	logo_undergo_url:string = Constants.BASE_API_URL+"assets/icon/undergo-cc-24.svg";
+	logo_undergo_url:string = Constants.BASE_API_URL+"assets/icon/undergo-cc-24-black.svg";
 	constructor() {
 	}
 
