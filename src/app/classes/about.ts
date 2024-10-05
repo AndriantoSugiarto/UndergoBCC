@@ -11,5 +11,5 @@ export class About {
 	public static readonly headline_1: string = "LIFE IS A NEVER ENDING DISCOVERY";
 	public static readonly description_5: string = "hidup adalah sebuah perjalanan untuk melakukan sebuah pencarian yang tidak pernah berhenti. Untuk hidup YANG berarti kamu perlu mencari tahu tentang siapa kamu, apa yang kamu miliki, dan ke mana hidupmu seharusnya bergerak. TEMUKAN SEMUANYA DI UNDERGO 2024.";
 	public static readonly headline_2: string = "Our Testimonies";
-
+	public static readonly videoC_poster: string = Constants.BASE_API_URL + 'assets/images/video-campaign.jpg';
 }
