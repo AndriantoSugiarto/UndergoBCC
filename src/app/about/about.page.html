@@ -10,6 +10,21 @@
 			</video>
 			<!-- <h1 class="title">{{ title }}</h1> -->
 			<p class="description">{{ description }}</p>
+			<p class="description" [innerHTML]="description_2"></p>
+			<p class="description" [innerHTML]="description_3"></p>
+			<p class="description" [innerHTML]="description_4"></p>
+			<span class="button-container">
+				<a class="btn btn-primary" href="https://form.jotform.com/242691719211456" target="_blank">
+					<p>experience</p> <span class="circle"><i class="arrow"></i></span>
+				</a>
+			</span>
+			<h2 class="headline">{{ headline_1}}</h2>
+			<p class="description">{{description_5}}</p>
+			<video id="video-undergo-campaign" controls [poster]="videoC_poster">
+				<source src="{{ videoC }}" type="video/mp4">
+			</video>
+			<h2 class="headline">{{ headline_2}}</h2>
+			
 		</div>
 		<app-footer></app-footer>
 	</div>

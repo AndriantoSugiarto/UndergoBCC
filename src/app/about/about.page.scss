@@ -33,15 +33,97 @@
 		.description {
 			text-transform: uppercase;
 			text-align: center;
-			font-size: 3vw;
+			font-size: 2.5vw;
 			font-family: "Futura";
+			font-weight: 600;
+			color: var(--ion-text-color-white);
+			margin-bottom: 0;
+
+			::ng-deep .yellow {
+				color: rgb(232, 198, 129);
+			}
 
 		}
 
 		#video-undergo {
-			border: .5rem solid #000;
+			border: .5rem solid rgba(253,200,48, .44);
 			border-radius: 2rem;
 			width: 80vw;
+		}
+
+		#video-undergo-campaign {
+			width: 80vw;
+			margin-top: 4rem;
+		}
+
+		.button-container {
+			display: flex;
+			position: relative;
+			z-index: 20;
+			margin-top: 1rem;
+			padding-bottom: 2em;
+			.btn {
+				width: 550px;
+				height: 154px;
+				background-image: linear-gradient(to right, #ef96f8,#cad4f7, #9af4fc);
+				background-size: contain;
+				background-repeat: no-repeat;
+				box-shadow: .25rem .25rem 1rem .15rem rgba(0, 0, 0, .5);
+
+				border-radius: 77px;
+				background-size: cover;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				text-decoration: none;
+				position: relative;
+				padding: 0 .5rem;
+
+				.circle {
+					display: flex;
+					position: absolute;
+					right: 1rem;
+					width: 7.5rem;
+					height: 7.5rem;
+					border-radius: 50%;
+					background-color: #eb6aa7;
+
+					.arrow {
+						background-image: url(../../assets/arrow-up.svg);
+						background-repeat: no-repeat;
+						background-size: contain;
+						transform: rotate(90deg);
+						width: 5.3125rem;
+						height: 5.5rem;
+						position: absolute;
+						right: 1.1rem;
+						top: 1rem;
+					}
+				}
+			}
+
+			.btn-primary p {
+				font-size: 3.886rem;
+				font-weight: 800;
+				color: var(--ion-text-color);
+				text-transform: uppercase;
+				text-align: left;
+				font-family: 'Futura';
+				line-height: 0.87em;
+				letter-spacing: -0.041em;
+				padding-left: 1.5rem;
+			}
+		}
+
+		.headline {
+			color:rgb(232, 198, 129);
+			font-size: 3.5vw;
+			line-height: 0.875em;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			margin-top: 2rem;
+			font-family: 'Futura';
+			font-weight: 800;
 		}
 	}
 }
