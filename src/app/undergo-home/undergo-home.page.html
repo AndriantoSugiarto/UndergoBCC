@@ -4,122 +4,77 @@
 
 <ion-content [fullscreen]="true">
   <div class="undergo-container">
-	<div class="section-1">
+	<!-- <div class="background-container">
 		<span class="image-bg">
 			<span class="img background"></span>
-			<span class="img-2 gif-animation"></span>
+			<span class="img-2 effect"></span>
+			<span class="img-3 effect-2"></span>
+			<span class="img-4 line-1"></span>
+			<span class="img-5 circle-blur"></span>
+			<span class="img-6 line-2"></span>
 		</span>
-		<p class="date-text">
-			<span class="text">october 19-20,</span><br/>
-			<span class="text">2024</span>
-		</p>
-		<p class="place-text">
-			<span class="text-p">Wisma Els 59, Lembang</span><br/>
-			<span class="text-p">Bandung</span>
-		</p>
-		<span class="button-container">
-			<a class="btn btn-primary" href="https://form.jotform.com/242691719211456" target="_blank">
-				<p>Book A Ticket</p> <span class="circle-arrow"></span>
-			</a>
-		</span>
-	</div>
-	<div class="section-2">
-		<span class="section-text">Line Up</span>
-		<div class="line-up">
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-1">
+	</div> -->
+	<div class="content-container">
+		<div class="section-1">
+			<span class="image-logo">
+				<img class="logo-undergo" src="{{logo_undergo_url}}" alt="logo-undergo">
+			</span>
+			<span class="barcode">
+				<img src="{{barcode_url}}" alt="barcode">
+			</span>
+			<span class="date-text">
+				<p class="text-1">.october.</p>
+				<p class="text-2">19-20/2024</p>
+				<p class="text-3">|</p>
+			</span>
+			<p class="place-text">
+				<span class="text-p">Wisma Els 59</span><br/>
+				<span class="text-p">Lembang Bandung</span>
+			</p>
+			<span class="button-container">
+				<a class="btn btn-primary" href="https://form.jotform.com/242691719211456" target="_blank">
+					<p>Book A Ticket</p> <span class="circle"><i class="arrow"></i></span>
+				</a>
+			</span>
+		</div>
+		<div class="section-2">
+			<span class="section-text"><p class="text">Line Up</p></span>
+			<div class="line-up">
+				<div class="speaker" *ngFor="let speaker of speakers; index as i">
+					<span class="speaker-img">
+						<span class="image-container">
+							<img class="bg-image" src="{{speaker.bg_image}}" alt="background">
+							<span class="photo photo-{{i+1}}" [ngStyle]="{'background-image': 'url(' + speaker.photo + ')'}"></span>
+						</span>
+						<span class="text-container">
+							<p class="name-1">{{ speaker.name }}</p>
+							<p [ngClass]="i==0 ? 'name-2' : 'name-1'">{{ speaker.name_2 }}</p>
+						</span>
 					</span>
-					<span class="text-container">
-						<p>Ps. Jefri <br/>Theresna</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-2">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">Ps. Winston <br/>Yehezkiel</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-3">
-					</span>
-					<span class="text-container">
-						<p>Ps. Jansen <br/>Silaban</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-4">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">The (Youth) <br/>Pastor</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-5">
-					</span>
-					<span class="text-container">
-						<p>marcello<br>nanlohi</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-6">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">ecc performing <br/>art</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-7">
-					</span>
-					<span class="text-container">
-						<p>bcc crew</p>
-					</span>
-				</span>
-			</div>
-			<div class="speaker">
-				<span class="speaker-img">
-					<span class="shape-8">
-					</span>
-					<span class="text-container">
-						<p class="text-custom">ruang bicara <br/>with Flo tenesha</p>
-					</span>
-				</span>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="section-3">
-		<div class="undergo-about-container">
-			<div class="about-container">
-				<video id="background-video" autoplay loop muted="true">
-					<source src="{{ undergo_2023_url_video }}" type="video/mp4">
-				</video>
-				<span class="text-container">
-					<h3>About Undergo</h3>
-					<p>Undergo adalah Youth experience Camp yang diselenggarakan<br/>
-						setiap tahunnya oleh ECC Bridge untuk mewadahi kamu agar dapat mengalami Tuhan dan mengekspresikan dirimu<br/>
-						sesuai dengan Firman Tuhan.</p>
-					<span class="button-container">
-						<a class="btn btn-primary" routerLink="/coming-soon">
-							<p>Lebih Lanjut</p> <span class="circle"><i class="arrow"></i></span>
-						</a>
+		<div class="section-3">
+			<div class="undergo-about-container">
+				<div class="about-container">
+					<video id="background-video" autoplay loop muted="true">
+						<source src="{{ undergo_2023_url_video }}" type="video/mp4">
+					</video>
+					<span class="text-container">
+						<h3>About Undergo</h3>
+						<p>Undergo adalah Youth experience Camp yang diselenggarakan<br/>
+							setiap tahunnya oleh ECC Bridge untuk mewadahi kamu agar dapat mengalami Tuhan dan mengekspresikan dirimu<br/>
+							sesuai dengan Firman Tuhan.</p>
+						<span class="button-container">
+							<a class="btn btn-primary" routerLink="/coming-soon">
+								<p>Lebih Lanjut</p> <span class="circle"><i class="arrow"></i></span>
+							</a>
+						</span>
 					</span>
-				</span>
+				</div>
 			</div>
 		</div>
+		<app-footer></app-footer>
 	</div>
-	<app-footer></app-footer>
   </div>
 </ion-content>

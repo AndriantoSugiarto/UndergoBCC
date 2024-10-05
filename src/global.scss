@@ -119,8 +119,6 @@ ion-header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	// background-color: rgba(0,0,0,.1);
-	// background-blend-mode: darken;
 }
 
 ion-content::part(background) {
@@ -129,6 +127,6 @@ ion-content::part(background) {
 }
 
 :root {
-	--ion-text-color: #ffffff;
-    --ion-text-color-rgb: 255, 255, 255;
+	--ion-text-color: #000000;
+    --ion-text-color-rgb: 0, 0, 0;
 }
