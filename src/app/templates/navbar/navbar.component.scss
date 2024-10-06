@@ -114,6 +114,10 @@
 						display: flex;
 						flex-direction: column;
 						padding-left:  0;
+
+						.nav-list {
+							padding-right: 0;
+						}
 					}
 				}
 			}
