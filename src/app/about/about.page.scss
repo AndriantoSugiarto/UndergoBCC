@@ -298,6 +298,33 @@
 					padding-left: calc(1.5rem * .4);
 				}
 			}
+
+			.testimony {
+				.participant {
+					&.participant:nth-child(even) {
+						flex-direction: column;
+
+						.text-container {
+							.testimony-name {
+								padding-right: 0;
+							}
+						}
+					}
+					.text-container {
+						.testimony-name {
+							text-align: center;
+							font-size: 1.5rem;
+						}
+
+						.testimony-text {
+							padding: 1rem;
+							width: 100%;
+							text-align: center;
+							font-size: 1.2rem;
+						}
+					}
+				}
+			}
 		}
 	}
 }
