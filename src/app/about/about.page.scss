@@ -22,19 +22,18 @@
 		align-items: center;
 		flex-direction: column;
 
-		.title {
-			font-size: 7vw;
-			font-family: "Futura";
-			font-weight: 800;
-			text-transform: uppercase;
-			text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.400000);
+		#video-undergo {
+			border: .5rem solid rgba(253,200,48, .44);
+			border-radius: 2rem;
+			width: 80vw;
+			margin-bottom: 4rem;
 		}
 
 		.description {
 			text-transform: uppercase;
 			text-align: center;
-			font-size: 2.5vw;
-			font-family: "Futura";
+			font-size: 2.2vw;
+			font-family: "Futura LT Pro";
 			font-weight: 600;
 			color: var(--ion-text-color-white);
 			margin-bottom: 0;
@@ -42,13 +41,6 @@
 			::ng-deep .yellow {
 				color: rgb(232, 198, 129);
 			}
-
-		}
-
-		#video-undergo {
-			border: .5rem solid rgba(253,200,48, .44);
-			border-radius: 2rem;
-			width: 80vw;
 		}
 
 		#video-undergo-campaign {
@@ -89,7 +81,7 @@
 					background-color: #eb6aa7;
 
 					.arrow {
-						background-image: url(../../assets/arrow-up.svg);
+						background-image: url('../../assets/arrow-up.svg');
 						background-repeat: no-repeat;
 						background-size: contain;
 						transform: rotate(90deg);
@@ -108,7 +100,7 @@
 				color: var(--ion-text-color);
 				text-transform: uppercase;
 				text-align: left;
-				font-family: 'Futura';
+				font-family: 'Futura LT Pro';
 				line-height: 0.87em;
 				letter-spacing: -0.041em;
 				padding-left: 1.5rem;
@@ -121,9 +113,190 @@
 			line-height: 0.875em;
 			letter-spacing: 0.08em;
 			text-transform: uppercase;
-			margin-top: 2rem;
-			font-family: 'Futura';
+			margin-top: 4rem;
+			font-family: 'Futura LT Pro';
 			font-weight: 800;
+		}
+
+		.testimony {
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			width: 100%;
+			flex-direction: column;
+			margin-top: 4rem;
+			.participant {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				&.participant:nth-child(even) {
+					flex-direction: row-reverse;
+
+					.text-container {
+						.testimony-name {
+							text-align: right;
+							padding-right: 2rem;
+						}
+					}
+				}
+
+				.image-container {
+					width: 300px;
+					height: 300px;
+					position: relative;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					.bg-image {
+						width: 300px;
+						height: 300px;
+						position: absolute;
+						z-index: 4;
+						object-fit: contain;
+					}
+
+					.photo {
+						width: 290px;
+						height: 290px;
+						object-fit: cover;
+						object-position: 100% 65%;
+						mask-image: url('../../assets/arc-circle-2.svg');
+						mask-size: cover;
+						position: absolute;
+						z-index: 5;
+					}
+
+					.photo-1 {
+						background-position: 47% 60%;
+						background-size: 220%;
+						background-repeat: no-repeat;
+					}
+
+					.photo-2 {
+						background-position: 100% 97%;
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+				}
+
+				.text-container {
+					text-align: left;
+					margin-top: 1rem;
+					width: 71%;
+					padding-left: 1rem;
+					color: var(--ion-text-color-white);
+					p {
+						font-family: "Futura LT Pro";
+						margin: 0;
+						text-transform: uppercase;
+						letter-spacing: 0.083em;
+						color: var(--ion-text-color-white);
+					}
+
+					.testimony-name {
+						font-size: 1.903rem;
+						line-height: 1.077em;
+						letter-spacing: 0.083em;
+						font-weight: 800;
+						text-transform: uppercase;
+						text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.400000);
+						margin-bottom: 2rem;
+						font-family: "Futura LT Pro";
+						font-weight: 800;
+					}
+
+					.testimony-text {
+						font-size: 1.701rem;
+						line-height: 1.119em;
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 1200px) {
+		.about-container {
+			.testimony {
+				.participant {
+					flex-direction: column;
+					width: 100%;
+					border: .25rem solid rgba(161, 220, 237, 0.41);
+					border-radius: 3rem;
+					margin-bottom: 2rem;
+					// padding: 1rem;
+					&.participant:nth-child(even) {
+						flex-direction: column;
+
+						.text-container {
+							.testimony-name {
+								text-align: center;
+							}
+						}
+					}
+
+					.image-container {
+						margin-top: 2rem;
+					}
+
+					.text-container {
+						width: 100%;
+						padding-left: 0;
+						background-color: rgba(0, 0, 0, .5);
+						border-bottom-left-radius: 3rem;
+						border-bottom-right-radius: 3rem;
+						.testimony-name {
+							text-align: center;
+						}
+
+						.testimony-text {
+							padding: 1rem;
+							width: 100%;
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.about-container {
+			padding: 1rem;
+
+			#video-undergo {
+				margin-bottom: 2rem;
+			}
+
+			.headline {
+				margin-top: 1rem;
+			}
+			.button-container {
+				.btn {
+					width: calc(550px * .4);
+					height: calc(154px * .4);
+					border-radius: calc(77px * .4);
+
+					.circle {
+						right: calc(1rem * .4);
+						width: calc(7.5rem * .4);
+						height: calc(7.5rem * .4);
+
+						.arrow {
+							width: calc(5.3125rem * .4);
+							height: calc(5.5rem * .4);
+							right: calc(1.1rem * .4);
+							top: calc(1rem * .4);
+						}
+					}
+				}
+
+				.btn-primary p {
+					font-size: calc(3.886rem * .4);
+					padding-left: calc(1.5rem * .4);
+				}
+			}
 		}
 	}
 }

@@ -96,6 +96,27 @@
 }
 
 @font-face {
+	font-family: "Futura LT Pro";
+	src: url("assets/fonts/FuturaLTProBook/FuturaLTProBookRegular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Futura LT Pro";
+	src: url("assets/fonts/FuturaLTProBook/FuturaLTProBookMedium.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Futura LT Pro";
+	src: url("assets/fonts/FuturaLTProBook/FuturaLTProBold.otf") format("opentype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "Futura";
 	src: url("assets/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
 	font-weight: 800;
@@ -109,10 +130,7 @@
 	font-style: normal;
 }
 
-// body {
-// 	// --ion-background-color: rgb(198, 226, 219);
-// 	background-image: url('assets/images/background-01.webp');
-// }
+
 
 ion-header {
 	background-image: linear-gradient(90deg, #ffa9f9, #fff7ad);

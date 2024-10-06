@@ -14,7 +14,7 @@
 			<p class="description" [innerHTML]="description_3"></p>
 			<p class="description" [innerHTML]="description_4"></p>
 			<span class="button-container">
-				<a class="btn btn-primary" href="https://form.jotform.com/242691719211456" target="_blank">
+				<a class="btn btn-primary" routerLink="/coming-soon">
 					<p>experience</p> <span class="circle"><i class="arrow"></i></span>
 				</a>
 			</span>
@@ -24,7 +24,18 @@
 				<source src="{{ videoC }}" type="video/mp4">
 			</video>
 			<h2 class="headline">{{ headline_2}}</h2>
-			
+			<div class="testimony">
+				<span class="participant" *ngFor="let testimony of testimonies; index as i">
+					<span class="image-container">
+						<img class="bg-image" src="{{testimony.bg_image}}" alt="background">
+						<span class="photo photo-{{i+1}}" [ngStyle]="{'background-image': 'url(' + testimony.photo_url + ')'}"></span>
+					</span>
+					<span class="text-container">
+						<h3 class="testimony-name">{{ testimony.name }}</h3>
+						<p class="testimony-text">{{ testimony.testimony_text }}</p>
+					</span>
+				</span>
+			</div>
 		</div>
 		<app-footer></app-footer>
 	</div>
