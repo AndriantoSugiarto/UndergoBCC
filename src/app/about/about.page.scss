@@ -223,8 +223,8 @@
 				.participant {
 					flex-direction: column;
 					width: 100%;
-					border: .25rem solid rgba(161, 220, 237, 0.41);
-					border-radius: 3rem;
+					// border: .25rem solid rgba(161, 220, 237, 0.41);
+					// border-radius: 3rem;
 					margin-bottom: 2rem;
 					// padding: 1rem;
 					&.participant:nth-child(even) {
@@ -245,8 +245,7 @@
 						width: 100%;
 						padding-left: 0;
 						background-color: rgba(0, 0, 0, .5);
-						border-bottom-left-radius: 3rem;
-						border-bottom-right-radius: 3rem;
+						border-radius: 3rem;
 						.testimony-name {
 							text-align: center;
 						}
