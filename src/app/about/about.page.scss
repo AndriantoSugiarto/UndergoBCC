@@ -218,6 +218,7 @@
 
 	@media screen and (max-width: 1200px) {
 		.about-container {
+			width: calc(100vw - 1rem);
 			.testimony {
 				.participant {
 					flex-direction: column;
