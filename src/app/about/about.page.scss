@@ -138,6 +138,11 @@
 							text-align: right;
 							padding-right: 2rem;
 						}
+
+						.testimony-from {
+							text-align: right;
+							padding-right: 2rem;
+						}
 					}
 				}
 
@@ -196,19 +201,27 @@
 					}
 
 					.testimony-name {
-						font-size: 1.903rem;
+						font-size: 2vw;
 						line-height: 1.077em;
 						letter-spacing: 0.083em;
 						font-weight: 800;
 						text-transform: uppercase;
 						text-shadow: 0.06629126em 0.06629126em 0em rgba(0, 0, 0, 0.400000);
-						margin-bottom: 2rem;
 						font-family: "Futura LT Pro";
 						font-weight: 800;
 					}
 
+					.testimony-from {
+						font-size: 1.5vw;
+						font-weight: 700;
+						text-transform: uppercase;
+						line-height: 1.077em;
+						letter-spacing: 0.083em;
+						margin-bottom: 2rem;
+					}
+
 					.testimony-text {
-						font-size: 1.701rem;
+						font-size: 1.4vw;
 						line-height: 1.119em;
 					}
 				}
@@ -234,6 +247,10 @@
 							.testimony-name {
 								text-align: center;
 							}
+
+							.testimony-from {
+								text-align: center;
+							}
 						}
 					}
 
@@ -247,6 +264,10 @@
 						background-color: rgba(0, 0, 0, .5);
 						border-radius: 3rem;
 						.testimony-name {
+							text-align: center;
+						}
+
+						.testimony-from {
 							text-align: center;
 						}
 
@@ -299,12 +320,17 @@
 			}
 
 			.testimony {
+				margin-top: 0;
 				.participant {
 					&.participant:nth-child(even) {
 						flex-direction: column;
 
 						.text-container {
 							.testimony-name {
+								padding-right: 0;
+							}
+
+							.testimony-from {
 								padding-right: 0;
 							}
 						}
@@ -315,11 +341,17 @@
 							font-size: 1.5rem;
 						}
 
+						.testimony-from {
+							font-size: 1.1rem;
+							text-align: center;
+							text-wrap: balance;
+						}
+
 						.testimony-text {
 							padding: 1rem;
 							width: 100%;
 							text-align: center;
-							font-size: 1.2rem;
+							font-size: 1rem;
 						}
 					}
 				}
