@@ -116,6 +116,8 @@
 			margin-top: 4rem;
 			font-family: 'Futura LT Pro';
 			font-weight: 800;
+			border-bottom: 4px solid rgba(232, 198, 129, .3);
+			padding-bottom: .25rem;
 		}
 
 		.testimony {
@@ -237,13 +239,11 @@
 		.about-container {
 			width: calc(100vw - 1rem);
 			.testimony {
+				margin-top: 0rem;
 				.participant {
 					flex-direction: column;
 					width: 100%;
-					// border: .25rem solid rgba(161, 220, 237, 0.41);
-					// border-radius: 3rem;
 					margin-bottom: 2rem;
-					// padding: 1rem;
 					&.participant:nth-child(even) {
 						flex-direction: column;
 
@@ -267,18 +267,22 @@
 						padding-left: 0;
 						background-color: rgba(0, 0, 0, .5);
 						border-radius: 3rem;
+						padding-right: 0;
 						.testimony-name {
 							text-align: center;
+							font-size: 3vw;
 						}
 
 						.testimony-from {
 							text-align: center;
+							font-size: 2vw;
 						}
 
 						.testimony-text {
 							padding: 1rem;
 							width: 100%;
 							text-align: center;
+							font-size: 1.8vw;
 						}
 					}
 				}
