@@ -3,5 +3,24 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
+	<div id="container">
+		<div class="experience-container">
+			<div class="title-ex">
+				<h1>EXPRESS YOURSELF TO EXPERIENCE</h1>
+			</div>
+			<div class="experiences">
+				<span class="experience" *ngFor="let experience of experiences; index as i">
+					<span class="img-container">
+						<span class="bg-image" [ngStyle]="{'background-color': experience.bg_color }"></span>
+						<span class="img image-{{i+1}}"><i class="img-content" [ngStyle]="{'background-image': 'url(' + experience.image + ')'}"></i></span>
+					</span>
+					<span class="text-ex-container">
+						<h2 class="header">{{ experience.header }}</h2>
+						<p class="text-ex">{{ experience.text }}</p>
+					</span>
+				</span>
+			</div>
+			<app-footer></app-footer>
+		</div>
+	</div>
 </ion-content>
