@@ -52,7 +52,7 @@
 			display: flex;
 			position: relative;
 			z-index: 20;
-			margin-top: 1rem;
+			margin-top: 3rem;
 			padding-bottom: 2em;
 			.btn {
 				width: 550px;
@@ -134,6 +134,7 @@
 					flex-direction: row-reverse;
 
 					.text-container {
+						margin-right: 1rem;
 						.testimony-name {
 							text-align: right;
 							padding-right: 2rem;
@@ -190,8 +191,11 @@
 					text-align: left;
 					margin-top: 1rem;
 					width: 71%;
-					padding-left: 1rem;
 					color: var(--ion-text-color-white);
+					background-color: rgba(0, 0, 0, .5);
+					border-radius: 3rem;
+					padding: 2rem;
+					margin-left: 1rem;
 					p {
 						font-family: "Futura LT Pro";
 						margin: 0;
@@ -347,6 +351,7 @@
 						}
 					}
 					.text-container {
+						padding-right: 0;
 						.testimony-name {
 							text-align: center;
 							font-size: 1.5rem;
