@@ -3,5 +3,27 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
+	<div id="faq-container">
+		<div class="faq">
+			<h1>F.A.Q</h1>
+			<div class="faq-content">
+				<ion-accordion-group>
+					<ion-accordion *ngFor="let faq of faqs; index as i" value="{{i+1}}" toggleIcon="caret-down-circle">
+						<ion-item slot="header">
+							<ion-label>{{faq.question}}</ion-label>
+					  	</ion-item>
+					  	<div class="ion-padding" slot="content" [innerHTML]="faq.answer"></div>
+					</ion-accordion>
+				  </ion-accordion-group>
+			</div>
+			<div class="ask-content">
+				<h2>Still Have a Question ?</h2>
+				<div class="form-question">
+					<ion-textarea class="custom" [(ngModel)]="question" label="Your Question" labelPlacement="stacked" fill="outline" [autoGrow]="true" placeholder="Ask Your Question here" required></ion-textarea>
+					<ion-button class="custom-button" [href]="changeQuestion()" target="_blank" expand="block" shape="round" size="large">Send Question to Admin &nbsp;<ion-icon name="logo-whatsapp" size="large"></ion-icon></ion-button>
+				</div>
+			</div>
+		</div>
+		<app-footer></app-footer>
+	</div>
 </ion-content>
