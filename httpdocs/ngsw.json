@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1728398176348,
+  "timestamp": 1728398706152,
   "index": "https://eccbridge.my.id/index.html",
   "assetGroups": [
     {
@@ -78,7 +78,7 @@
         "https://eccbridge.my.id/polyfills-dom.bf542500b6fca113.js",
         "https://eccbridge.my.id/polyfills.45b15749fa958a1d.js",
         "https://eccbridge.my.id/runtime.e42f472ccabd7d01.js",
-        "https://eccbridge.my.id/styles.86b3c50921dcfbb3.css"
+        "https://eccbridge.my.id/styles.e9aa511990376c57.css"
       ],
       "patterns": []
     },
@@ -1869,13 +1869,13 @@
     "https://eccbridge.my.id/bg-image.c31664a956f03e6b.webp": "94e1aa42058a41709d2465b1a42a835eb340b192",
     "https://eccbridge.my.id/common.3c4a3a0bdd67b7f9.js": "2548673d5e197d273de1f995b4904a14f4a3b5b7",
     "https://eccbridge.my.id/effect-page1.ba03240c0e4928f6.svg": "a2a6ba0937bf66a81ffb870fa95936d88a2a465b",
-    "https://eccbridge.my.id/index.html": "86daef052fb43288fd9cee6508b75aab61e01d9e",
+    "https://eccbridge.my.id/index.html": "73516884028990b2db85a29ac070a0bb5d003594",
     "https://eccbridge.my.id/main.0ecc8ae2ebe5ca49.js": "ae35a50afc316915d0bbab3f3e995156a5b7ef74",
     "https://eccbridge.my.id/polyfills-core-js.9b17e8c75eeccf74.js": "79c38229b37c1b018dc0427b03319da272d1c3bf",
     "https://eccbridge.my.id/polyfills-dom.bf542500b6fca113.js": "3fa333db66c8050f12e99d977f5098a6de8dd593",
     "https://eccbridge.my.id/polyfills.45b15749fa958a1d.js": "8f7a68085cf3b9bab686804366cd6cb9e456dec3",
     "https://eccbridge.my.id/runtime.e42f472ccabd7d01.js": "9a0d6895eae5473220b4dc8e851b3d79bc5d333d",
-    "https://eccbridge.my.id/styles.86b3c50921dcfbb3.css": "76fc9a15942ad6248394874b987b4904ddfcc72e",
+    "https://eccbridge.my.id/styles.e9aa511990376c57.css": "be37dc689a0a64955b35046c3139da089d9c6d4f",
     "https://eccbridge.my.id/svg/accessibility-outline.svg": "92bc5fbc69bc5b55f75c5d29686d6f3b949857bd",
     "https://eccbridge.my.id/svg/accessibility-sharp.svg": "0c6447c380f04b29bef7413d50d088dd4a5fd61c",
     "https://eccbridge.my.id/svg/accessibility.svg": "3f760d7dc1da4008ef0d280effe8bfd30b6b68e9",
