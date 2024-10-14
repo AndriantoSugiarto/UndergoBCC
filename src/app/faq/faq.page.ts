@@ -17,7 +17,7 @@ export class FaqPage implements OnInit {
 			},
 			{
 				question: 'Registrasi dan beli tiketnya di mana ?',
-				answer: 'Bisa lewat halaman News Event di Els App atau <a href="https://form.jotform.com/242691719211456" target="_blank">Click This Link to Book A Ticket</a>'
+				answer: 'Bisa lewat halaman News Event di Els App atau <a href="https://form.jotform.com/242871906954468" target="_blank">Click This Link to Book A Ticket</a>'
 			},
 			{
 				question: 'Apa saja Pilihan Transportasi untuk datang Ke UNDERGO ?',
