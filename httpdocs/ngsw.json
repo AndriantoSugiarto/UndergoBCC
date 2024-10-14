@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1728925096568,
+  "timestamp": 1728925298254,
   "index": "https://eccbridge.my.id/index.html",
   "assetGroups": [
     {
@@ -38,7 +38,7 @@
         "https://eccbridge.my.id/5100.91ab2e55a25e7193.js",
         "https://eccbridge.my.id/5197.8544f9c3d5e55dd5.js",
         "https://eccbridge.my.id/5222.a2fb854c0accab03.js",
-        "https://eccbridge.my.id/5638.b89fa05f06553bd9.js",
+        "https://eccbridge.my.id/5638.1be3041cd6436236.js",
         "https://eccbridge.my.id/5712.afc12e983abf3d42.js",
         "https://eccbridge.my.id/5887.57fcd969e650034c.js",
         "https://eccbridge.my.id/589.4fbcd210372f7048.js",
@@ -77,7 +77,7 @@
         "https://eccbridge.my.id/polyfills-core-js.9b17e8c75eeccf74.js",
         "https://eccbridge.my.id/polyfills-dom.bf542500b6fca113.js",
         "https://eccbridge.my.id/polyfills.45b15749fa958a1d.js",
-        "https://eccbridge.my.id/runtime.767e09cd08b7e25a.js",
+        "https://eccbridge.my.id/runtime.1923ca82908fe2a2.js",
         "https://eccbridge.my.id/styles.e9aa511990376c57.css"
       ],
       "patterns": []
@@ -1657,7 +1657,7 @@
     "https://eccbridge.my.id/5100.91ab2e55a25e7193.js": "c9ee0462ac30959e385057a8a2fff138cac6b263",
     "https://eccbridge.my.id/5197.8544f9c3d5e55dd5.js": "82ce4a1796751ecd38c117476f3d0ac3e327da5f",
     "https://eccbridge.my.id/5222.a2fb854c0accab03.js": "f359fe49ea02c45e5eeceed9362fdfba2eef9333",
-    "https://eccbridge.my.id/5638.b89fa05f06553bd9.js": "9ceb1a04c5b4d0da98c18874b36d7351c9d19e85",
+    "https://eccbridge.my.id/5638.1be3041cd6436236.js": "c8bc2e96fecc410950841c57e2251f9d3ce16479",
     "https://eccbridge.my.id/5712.afc12e983abf3d42.js": "aa40d8fe7586459c4515c00e315dc86e6b74ceb4",
     "https://eccbridge.my.id/5887.57fcd969e650034c.js": "7e49cab1b6264a437c7469d482159b2689a6f7b3",
     "https://eccbridge.my.id/589.4fbcd210372f7048.js": "0a71bec924686835367464a39eef0d37b479f8c9",
@@ -1869,12 +1869,12 @@
     "https://eccbridge.my.id/bg-image.c31664a956f03e6b.webp": "94e1aa42058a41709d2465b1a42a835eb340b192",
     "https://eccbridge.my.id/common.8cbcd8fa18fb1298.js": "63e8c784ac2b8573277cd841d9f34d6ad30be536",
     "https://eccbridge.my.id/effect-page1.ba03240c0e4928f6.svg": "a2a6ba0937bf66a81ffb870fa95936d88a2a465b",
-    "https://eccbridge.my.id/index.html": "c0512754f0c3e9dda6a50237ecb836f4ec8d9039",
+    "https://eccbridge.my.id/index.html": "a7a6baef35908b90d6390ea651d77e13f193c36d",
     "https://eccbridge.my.id/main.0ecc8ae2ebe5ca49.js": "ae35a50afc316915d0bbab3f3e995156a5b7ef74",
     "https://eccbridge.my.id/polyfills-core-js.9b17e8c75eeccf74.js": "79c38229b37c1b018dc0427b03319da272d1c3bf",
     "https://eccbridge.my.id/polyfills-dom.bf542500b6fca113.js": "3fa333db66c8050f12e99d977f5098a6de8dd593",
     "https://eccbridge.my.id/polyfills.45b15749fa958a1d.js": "8f7a68085cf3b9bab686804366cd6cb9e456dec3",
-    "https://eccbridge.my.id/runtime.767e09cd08b7e25a.js": "28cc26d54f2884de8f531ec19a26100199a4e2c9",
+    "https://eccbridge.my.id/runtime.1923ca82908fe2a2.js": "87121013c0eae077cb2d0b0573100b6f623b9cd5",
     "https://eccbridge.my.id/styles.e9aa511990376c57.css": "be37dc689a0a64955b35046c3139da089d9c6d4f",
     "https://eccbridge.my.id/svg/accessibility-outline.svg": "92bc5fbc69bc5b55f75c5d29686d6f3b949857bd",
     "https://eccbridge.my.id/svg/accessibility-sharp.svg": "0c6447c380f04b29bef7413d50d088dd4a5fd61c",
