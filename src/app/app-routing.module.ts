@@ -31,7 +31,15 @@ const routes: Routes = [
   {
     path: 'coming-soon',
     loadChildren: () => import('./coming-soon/coming-soon.module').then( m => m.ComingSoonPageModule)
+  },  {
+    path: 'session',
+    loadChildren: () => import('./session/session.module').then( m => m.SessionPageModule)
   },
+  {
+    path: 'under-construction',
+    loadChildren: () => import('./under-construction/under-construction.module').then( m => m.UnderConstructionPageModule)
+  },
+
 
 
 ];
