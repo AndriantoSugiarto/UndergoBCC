@@ -9,6 +9,7 @@ import { Constants } from 'src/app/classes/constants';
 export class NavbarComponent  implements OnInit {
 	logo_undergo_url:string = Constants.BASE_API_URL+"assets/icon/undergo-cc-24-black.svg";
 	icon_airplane_url:string = Constants.BASE_API_URL+"assets/airplane.svg";
+	form_link: string = "https://form.jotform.com/242871906954468";
 	constructor() {
 	}
 
@@ -24,5 +25,21 @@ export class NavbarComponent  implements OnInit {
 		icon2.classList.toggle('c');
 		icon3.classList.toggle('b');
 		nav.classList.toggle('show');
+	}
+
+	checkStatusLink(disabled: boolean) {
+		if(disabled) {
+			return "#";
+		} else {
+			return this.form_link;
+		}
+	}
+
+	changeTargetLink(disabled: boolean) {
+		if(disabled) {
+			return "_self";
+		} else {
+			return "_blank";
+		}
 	}
 }
